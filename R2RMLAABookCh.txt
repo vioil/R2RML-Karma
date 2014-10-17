@@ -1,0 +1,367 @@
+@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix role: <http://vitro.mannlib.cornell.edu/ns/vitro/role#> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl2: <http://www.w3.org/2006/12/owl2-xml#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix aka: <http://vivoweb.org/ontology/aka#> .
+@prefix far: <http://vitro.mannlib.cornell.edu/ns/reporting#> .
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix aktp: <http://www.aktors.org/ontology/portal#> .
+@prefix tamu: <http://vivo.library.tamu.edu/ontology/TAMU#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix socsci: <http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#> .
+@prefix statistics: <http://purl.org/net/OCRe/statistics.owl#> .
+@prefix sce: <http://vivoweb.org/ontology/SchoolOfContinuingEducation#> .
+@prefix config: <http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#> .
+@prefix skos2: <http://www.w3.org/2008/05/skos#> .
+@prefix vivoc: <http://vivo.library.cornell.edu/ns/0.1#> .
+@prefix pubmed: <http://vitro.mannlib.cornell.edu/ns/pubmed#> .
+@prefix cce: <http://vivoweb.org/ontology/cornell-cooperative-extension#> .
+@prefix mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix datagetter: <java:edu/cornell/mannlib/vitro/webapp/utils/datagetter/> .
+@prefix hr: <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#> .
+@prefix pvs: <http://vivoweb.org/ontology/provenance-support#> .
+@prefix wos: <http://vivo.mannlib.cornell.edu/ns/ThomsonWOS/0.1#> .
+@prefix scirr: <http://vivoweb.org/ontology/scientific-research-resource#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix stars: <http://vitro.mannlib.cornell.edu/ns/cornell/stars/classes#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix local: <http://vivo.cornell.edu/ontology/local#> .
+@prefix study_protocol: <http://purl.org/net/OCRe/study_protocol.owl#> .
+@prefix ai: <http://vivoweb.org/ontology/activity-insight#> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wcmc: <http://weill.cornell.edu/vivo/ontology/wcmc#> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix app: <http://eagle-i.org/ont/app/1.0/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ospcu: <http://vivoweb.org/ontology/cu-vivo-osp#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix swvs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node193o9mu61x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "aa_book_chapter-10-8-2014.txt" ;
+	km-dev:modelPublicationTime "1412785993921"^^xsd:long ;
+	km-dev:modelVersion "1.5" ;
+	km-dev:hasWorksheetHistory "[{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"BookChapterId\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/identifier\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Chapter1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/Chapter1 (add)\",\"DomainUri\":\"http://purl.org/ontology/bibo/Chapter\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ChapterTitle\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Chapter1\",\"DomainId\":\"http://purl.org/ontology/bibo/Chapter1\",\"DomainUri\":\"http://purl.org/ontology/bibo/Chapter\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ISBN\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/isbn13\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Book1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/Book1 (add)\",\"DomainUri\":\"http://purl.org/ontology/bibo/Book\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Book2\",\"DomainId\":\"http://purl.org/ontology/bibo/Book2\",\"DomainUri\":\"http://purl.org/ontology/bibo/Book\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://purl.org/ontology/bibo/cites\",\"edgeSourceId\":\"http://purl.org/ontology/bibo/Chapter1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Book\",\"edgeId\":\"http://vivoweb.org/ontology/core#hasPublicationVenue\",\"edgeSourceId\":\"http://purl.org/ontology/bibo/Chapter1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\",\"edgeSourceUri\":\"http://purl.org/ontology/bibo/Chapter\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivo.library.tamu.edu/ontology/TAMU#UID\",\"isPrimary\":true,\"DomainLabel\":\"vivo:FacultyMember1 (add)\",\"DomainId\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#FacultyMember\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://vivoweb.org/ontology/core#translatorOf\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://vivoweb.org/ontology/core#hasPublicationVenue\",\"edgeSourceId\":\"http://purl.org/ontology/bibo/Chapter1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\"},{\"edgeId\":\"http://vivoweb.org/ontology/core#translatorOf\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Book\",\"edgeId\":\"http://vivoweb.org/ontology/core#hasPublicationVenue\",\"edgeSourceId\":\"http://purl.org/ontology/bibo/Chapter1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\",\"edgeSourceUri\":\"http://purl.org/ontology/bibo/Chapter\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"authorship_uri\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"http://vivo.library.tamu.edu/n\\\"+getValue(\\\"URI\\\")+getValue(\\\"BookChapterId\\\").replace(\\\" \\\",\\\"_\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"URI\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://vivoweb.org/ontology/core#Authorship\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"authorship_uri\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://isi.edu/integration/karma/dev#classLink\",\"isPrimary\":true,\"DomainLabel\":\"vivo:Authorship1 (add)\",\"DomainId\":\"http://vivoweb.org/ontology/core#Authorship1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#Authorship\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://purl.obolibrary.org/obo/RO_0000056\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://purl.obolibrary.org/obo/BFO_00000381\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Chapter\",\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Chapter1\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#Authorship\"},{\"edgeTargetUri\":\"http://vivoweb.org/ontology/core#FacultyMember\",\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#Authorship\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"publishdate\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"http://vivo.library.tamu.edu/n\\\"+getValue(\\\"PublishYear\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"PublishYear\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://vivoweb.org/ontology/core#DateTimeValue\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"publishdate\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://isi.edu/integration/karma/dev#classLink\",\"isPrimary\":true,\"DomainLabel\":\"vivo:DateTimeValue1 (add)\",\"DomainId\":\"http://vivoweb.org/ontology/core#DateTimeValue1 (add)\",\"DomainUri\":\"http://vivoweb.org/ontology/core#DateTimeValue\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://purl.obolibrary.org/obo/RO_0000057\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#DateTimeValue2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Book\",\"edgeId\":\"http://vivoweb.org/ontology/core#dateTimePrecision\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#DateTimeValue2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#DateTimeValue\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"PublishYear\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":true,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"UnassignSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"PublishYear\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"vivo:DateTimeValue2\",\"DomainId\":\"http://vivoweb.org/ontology/core#DateTimeValue2\",\"DomainUri\":\"http://vivoweb.org/ontology/core#DateTimeValue\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://vivoweb.org/ontology/core#dateTimePrecision\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#DateTimeValue2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Book\",\"edgeId\":\"http://vivoweb.org/ontology/core#dateTimePrecision\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#DateTimeValue2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Book2\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#DateTimeValue\"},{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Chapter\",\"edgeId\":\"http://vivoweb.org/ontology/core#dateTimePrecision\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#DateTimeValue2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Chapter1\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#DateTimeValue\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"}]" .
+
+km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 a rr:TriplesMap .
+
+_:node193o9mu61x1 km-dev:hasTriplesMap km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 .
+
+km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x2 rr:tableName "aa_book_chapter-10-8-2014.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasLogicalTable _:node193o9mu61x2 .
+
+km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 rr:logicalTable _:node193o9mu61x2 ;
+	rr:subjectMap _:node193o9mu61x3 .
+
+_:node193o9mu61x1 km-dev:hasSubjectMap _:node193o9mu61x3 .
+
+_:node193o9mu61x3 km-dev:isPartOfMapping _:node193o9mu61x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://purl.org/ontology/bibo/Book2" ;
+	rr:class bibo:Book ;
+	rr:template "http://localhost:8080/source/{ISBN}" .
+
+km-dev:PredicateObjectMap_d5be9d78-1495-4b2a-a6dc-b7918df9b0bf rr:predicate bibo:isbn13 .
+
+_:node193o9mu61x4 rr:column "ISBN" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap _:node193o9mu61x4 .
+
+km-dev:PredicateObjectMap_d5be9d78-1495-4b2a-a6dc-b7918df9b0bf rr:objectMap _:node193o9mu61x4 .
+
+km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 rr:predicateObjectMap km-dev:PredicateObjectMap_d5be9d78-1495-4b2a-a6dc-b7918df9b0bf .
+
+km-dev:PredicateObjectMap_d5be9d78-1495-4b2a-a6dc-b7918df9b0bf a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d5be9d78-1495-4b2a-a6dc-b7918df9b0bf .
+
+km-dev:PredicateObjectMap_9a27d2b2-0bc1-4b98-903d-90569302f536 rr:predicate rdfs:label .
+
+_:node193o9mu61x5 rr:column "Title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap _:node193o9mu61x5 .
+
+km-dev:PredicateObjectMap_9a27d2b2-0bc1-4b98-903d-90569302f536 rr:objectMap _:node193o9mu61x5 .
+
+km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 rr:predicateObjectMap km-dev:PredicateObjectMap_9a27d2b2-0bc1-4b98-903d-90569302f536 .
+
+km-dev:PredicateObjectMap_9a27d2b2-0bc1-4b98-903d-90569302f536 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9a27d2b2-0bc1-4b98-903d-90569302f536 .
+
+km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf a rr:TriplesMap .
+
+_:node193o9mu61x1 km-dev:hasTriplesMap km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf .
+
+km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x6 rr:tableName "aa_book_chapter-10-8-2014.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasLogicalTable _:node193o9mu61x6 .
+
+km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf rr:logicalTable _:node193o9mu61x6 ;
+	rr:subjectMap _:node193o9mu61x7 .
+
+_:node193o9mu61x1 km-dev:hasSubjectMap _:node193o9mu61x7 .
+
+_:node193o9mu61x7 km-dev:isPartOfMapping _:node193o9mu61x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://purl.org/ontology/bibo/Chapter1" ;
+	rr:class bibo:Chapter ;
+	rr:template "http://localhost:8080/source/{BookChapterId}" .
+
+km-dev:PredicateObjectMap_a37fa2dc-9c09-486e-8fe0-71704554a0d1 rr:predicate bibo:identifier .
+
+_:node193o9mu61x8 rr:column "BookChapterId" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap _:node193o9mu61x8 .
+
+km-dev:PredicateObjectMap_a37fa2dc-9c09-486e-8fe0-71704554a0d1 rr:objectMap _:node193o9mu61x8 .
+
+km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf rr:predicateObjectMap km-dev:PredicateObjectMap_a37fa2dc-9c09-486e-8fe0-71704554a0d1 .
+
+km-dev:PredicateObjectMap_a37fa2dc-9c09-486e-8fe0-71704554a0d1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a37fa2dc-9c09-486e-8fe0-71704554a0d1 .
+
+km-dev:PredicateObjectMap_055616bd-939b-4a71-ba7b-25e4832de50e rr:predicate vivo:hasPublicationVenue .
+
+km-dev:RefObjectMap_f29ff63f-edf6-4286-af2f-d03be6ad6183 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap km-dev:RefObjectMap_f29ff63f-edf6-4286-af2f-d03be6ad6183 .
+
+km-dev:PredicateObjectMap_055616bd-939b-4a71-ba7b-25e4832de50e rr:objectMap km-dev:RefObjectMap_f29ff63f-edf6-4286-af2f-d03be6ad6183 .
+
+km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf rr:predicateObjectMap km-dev:PredicateObjectMap_055616bd-939b-4a71-ba7b-25e4832de50e .
+
+km-dev:PredicateObjectMap_055616bd-939b-4a71-ba7b-25e4832de50e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_055616bd-939b-4a71-ba7b-25e4832de50e .
+
+km-dev:PredicateObjectMap_f3a83b9b-8c6d-43c8-b063-9afd5dd463af rr:predicate rdfs:label .
+
+_:node193o9mu61x9 rr:column "ChapterTitle" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap _:node193o9mu61x9 .
+
+km-dev:PredicateObjectMap_f3a83b9b-8c6d-43c8-b063-9afd5dd463af rr:objectMap _:node193o9mu61x9 .
+
+km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf rr:predicateObjectMap km-dev:PredicateObjectMap_f3a83b9b-8c6d-43c8-b063-9afd5dd463af .
+
+km-dev:PredicateObjectMap_f3a83b9b-8c6d-43c8-b063-9afd5dd463af a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f3a83b9b-8c6d-43c8-b063-9afd5dd463af .
+
+km-dev:TriplesMap_604ea096-5558-4ed6-9534-e13b0030968d a rr:TriplesMap .
+
+_:node193o9mu61x1 km-dev:hasTriplesMap km-dev:TriplesMap_604ea096-5558-4ed6-9534-e13b0030968d .
+
+km-dev:TriplesMap_604ea096-5558-4ed6-9534-e13b0030968d km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x10 rr:tableName "aa_book_chapter-10-8-2014.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasLogicalTable _:node193o9mu61x10 .
+
+km-dev:TriplesMap_604ea096-5558-4ed6-9534-e13b0030968d rr:logicalTable _:node193o9mu61x10 ;
+	rr:subjectMap _:node193o9mu61x11 .
+
+_:node193o9mu61x1 km-dev:hasSubjectMap _:node193o9mu61x11 .
+
+_:node193o9mu61x11 km-dev:isPartOfMapping _:node193o9mu61x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#Authorship2" ;
+	rr:class vivo:Authorship ;
+	rr:template "{authorship_uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_8451af71-2676-43f6-97f3-32e24ce0b189 rr:predicate vivo:relates .
+
+km-dev:RefObjectMap_7fd42efb-c21c-4d8a-945d-65ed8ea94bb9 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap km-dev:RefObjectMap_7fd42efb-c21c-4d8a-945d-65ed8ea94bb9 .
+
+km-dev:PredicateObjectMap_8451af71-2676-43f6-97f3-32e24ce0b189 rr:objectMap km-dev:RefObjectMap_7fd42efb-c21c-4d8a-945d-65ed8ea94bb9 .
+
+km-dev:TriplesMap_604ea096-5558-4ed6-9534-e13b0030968d rr:predicateObjectMap km-dev:PredicateObjectMap_8451af71-2676-43f6-97f3-32e24ce0b189 .
+
+km-dev:PredicateObjectMap_8451af71-2676-43f6-97f3-32e24ce0b189 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8451af71-2676-43f6-97f3-32e24ce0b189 .
+
+km-dev:PredicateObjectMap_10fac804-95d8-4a84-82e3-afd7a890e015 rr:predicate vivo:relates .
+
+km-dev:RefObjectMap_13a8a33c-b37d-4e17-8598-a0c5aac9ac29 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f452d8f2-21a6-41cf-bb9d-bee7039cea93 ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap km-dev:RefObjectMap_13a8a33c-b37d-4e17-8598-a0c5aac9ac29 .
+
+km-dev:PredicateObjectMap_10fac804-95d8-4a84-82e3-afd7a890e015 rr:objectMap km-dev:RefObjectMap_13a8a33c-b37d-4e17-8598-a0c5aac9ac29 .
+
+km-dev:TriplesMap_604ea096-5558-4ed6-9534-e13b0030968d rr:predicateObjectMap km-dev:PredicateObjectMap_10fac804-95d8-4a84-82e3-afd7a890e015 .
+
+km-dev:PredicateObjectMap_10fac804-95d8-4a84-82e3-afd7a890e015 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_10fac804-95d8-4a84-82e3-afd7a890e015 .
+
+km-dev:TriplesMap_f452d8f2-21a6-41cf-bb9d-bee7039cea93 a rr:TriplesMap .
+
+_:node193o9mu61x1 km-dev:hasTriplesMap km-dev:TriplesMap_f452d8f2-21a6-41cf-bb9d-bee7039cea93 .
+
+km-dev:TriplesMap_f452d8f2-21a6-41cf-bb9d-bee7039cea93 km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x12 rr:tableName "aa_book_chapter-10-8-2014.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasLogicalTable _:node193o9mu61x12 .
+
+km-dev:TriplesMap_f452d8f2-21a6-41cf-bb9d-bee7039cea93 rr:logicalTable _:node193o9mu61x12 ;
+	rr:subjectMap _:node193o9mu61x13 .
+
+_:node193o9mu61x1 km-dev:hasSubjectMap _:node193o9mu61x13 .
+
+_:node193o9mu61x13 km-dev:isPartOfMapping _:node193o9mu61x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#FacultyMember1" ;
+	rr:class vivo:FacultyMember ;
+	rr:template "http://localhost:8080/source/{URI}" .
+
+km-dev:PredicateObjectMap_8a230c7f-f2db-4f47-b43a-10b23dace2eb rr:predicate tamu:UID .
+
+_:node193o9mu61x14 rr:column "URI" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap _:node193o9mu61x14 .
+
+km-dev:PredicateObjectMap_8a230c7f-f2db-4f47-b43a-10b23dace2eb rr:objectMap _:node193o9mu61x14 .
+
+km-dev:TriplesMap_f452d8f2-21a6-41cf-bb9d-bee7039cea93 rr:predicateObjectMap km-dev:PredicateObjectMap_8a230c7f-f2db-4f47-b43a-10b23dace2eb .
+
+km-dev:PredicateObjectMap_8a230c7f-f2db-4f47-b43a-10b23dace2eb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8a230c7f-f2db-4f47-b43a-10b23dace2eb .
+
+km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d a rr:TriplesMap .
+
+_:node193o9mu61x1 km-dev:hasTriplesMap km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d .
+
+km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x15 rr:tableName "aa_book_chapter-10-8-2014.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasLogicalTable _:node193o9mu61x15 .
+
+km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d rr:logicalTable _:node193o9mu61x15 ;
+	rr:subjectMap _:node193o9mu61x16 .
+
+_:node193o9mu61x1 km-dev:hasSubjectMap _:node193o9mu61x16 .
+
+_:node193o9mu61x16 km-dev:isPartOfMapping _:node193o9mu61x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#DateTimeValue2" ;
+	rr:class vivo:DateTimeValue ;
+	rr:template "http://vivo.library.tamu.edu/n{PublishYear}" .
+
+km-dev:PredicateObjectMap_9dd00006-b8b5-49ff-8918-de64834105aa rr:predicate vivo:dateTimePrecision .
+
+km-dev:RefObjectMap_2d0993ab-e125-4f22-905d-11feb5f2ef03 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8991c138-13b2-459c-9e87-c1eb56b27464 ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap km-dev:RefObjectMap_2d0993ab-e125-4f22-905d-11feb5f2ef03 .
+
+km-dev:PredicateObjectMap_9dd00006-b8b5-49ff-8918-de64834105aa rr:objectMap km-dev:RefObjectMap_2d0993ab-e125-4f22-905d-11feb5f2ef03 .
+
+km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d rr:predicateObjectMap km-dev:PredicateObjectMap_9dd00006-b8b5-49ff-8918-de64834105aa .
+
+km-dev:PredicateObjectMap_9dd00006-b8b5-49ff-8918-de64834105aa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9dd00006-b8b5-49ff-8918-de64834105aa .
+
+km-dev:PredicateObjectMap_3e1025fc-1b5d-4f6d-9039-b779a54244a1 rr:predicate rdfs:label .
+
+_:node193o9mu61x17 rr:column "PublishYear" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap _:node193o9mu61x17 .
+
+km-dev:PredicateObjectMap_3e1025fc-1b5d-4f6d-9039-b779a54244a1 rr:objectMap _:node193o9mu61x17 .
+
+km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d rr:predicateObjectMap km-dev:PredicateObjectMap_3e1025fc-1b5d-4f6d-9039-b779a54244a1 .
+
+km-dev:PredicateObjectMap_3e1025fc-1b5d-4f6d-9039-b779a54244a1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3e1025fc-1b5d-4f6d-9039-b779a54244a1 .
+
+km-dev:PredicateObjectMap_0b4f84aa-c06a-444d-8992-adb354296abe rr:predicate vivo:dateTimePrecision .
+
+km-dev:RefObjectMap_1d0ff772-ae40-4c0a-9527-2d04cafaf05d a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_c7549e59-350d-47ba-b40f-7fbd3bc7b0cf ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasObjectMap km-dev:RefObjectMap_1d0ff772-ae40-4c0a-9527-2d04cafaf05d .
+
+km-dev:PredicateObjectMap_0b4f84aa-c06a-444d-8992-adb354296abe rr:objectMap km-dev:RefObjectMap_1d0ff772-ae40-4c0a-9527-2d04cafaf05d .
+
+km-dev:TriplesMap_a58a03a3-d978-44ec-83fb-f53d5b83135d rr:predicateObjectMap km-dev:PredicateObjectMap_0b4f84aa-c06a-444d-8992-adb354296abe .
+
+km-dev:PredicateObjectMap_0b4f84aa-c06a-444d-8992-adb354296abe a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node193o9mu61x1 .
+
+_:node193o9mu61x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0b4f84aa-c06a-444d-8992-adb354296abe .

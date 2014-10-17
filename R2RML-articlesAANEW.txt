@@ -1,0 +1,412 @@
+@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix role: <http://vitro.mannlib.cornell.edu/ns/vitro/role#> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl2: <http://www.w3.org/2006/12/owl2-xml#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix aka: <http://vivoweb.org/ontology/aka#> .
+@prefix far: <http://vitro.mannlib.cornell.edu/ns/reporting#> .
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix aktp: <http://www.aktors.org/ontology/portal#> .
+@prefix tamu: <http://vivo.library.tamu.edu/ontology/TAMU#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix socsci: <http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#> .
+@prefix statistics: <http://purl.org/net/OCRe/statistics.owl#> .
+@prefix sce: <http://vivoweb.org/ontology/SchoolOfContinuingEducation#> .
+@prefix config: <http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#> .
+@prefix skos2: <http://www.w3.org/2008/05/skos#> .
+@prefix vivoc: <http://vivo.library.cornell.edu/ns/0.1#> .
+@prefix pubmed: <http://vitro.mannlib.cornell.edu/ns/pubmed#> .
+@prefix cce: <http://vivoweb.org/ontology/cornell-cooperative-extension#> .
+@prefix mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix datagetter: <java:edu/cornell/mannlib/vitro/webapp/utils/datagetter/> .
+@prefix hr: <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#> .
+@prefix pvs: <http://vivoweb.org/ontology/provenance-support#> .
+@prefix wos: <http://vivo.mannlib.cornell.edu/ns/ThomsonWOS/0.1#> .
+@prefix scirr: <http://vivoweb.org/ontology/scientific-research-resource#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix stars: <http://vitro.mannlib.cornell.edu/ns/cornell/stars/classes#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix local: <http://vivo.cornell.edu/ontology/local#> .
+@prefix study_protocol: <http://purl.org/net/OCRe/study_protocol.owl#> .
+@prefix ai: <http://vivoweb.org/ontology/activity-insight#> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wcmc: <http://weill.cornell.edu/vivo/ontology/wcmc#> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix app: <http://eagle-i.org/ont/app/1.0/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
+@prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ospcu: <http://vivoweb.org/ontology/cu-vivo-osp#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix swvs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node191vddp1mx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "AA5000.txt" ;
+	km-dev:modelPublicationTime "1410877285431"^^xsd:long ;
+	km-dev:modelVersion "1.5" ;
+	km-dev:hasWorksheetHistory "[{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"properties\",\"value\":{\"hasServiceProperties\":false,\"hasPrefix\":true,\"graphName\":\"\",\"prefix\":\"s\",\"hasBaseURI\":true,\"baseURI\":\"http://localhost:8080/source/\"},\"type\":\"other\"}],\"commandName\":\"SetWorksheetPropertiesCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivo.library.tamu.edu/ontology/TAMU#UID\",\"isPrimary\":true,\"DomainLabel\":\"vivo:FacultyMember1 (add)\",\"DomainId\":\"http://vivoweb.org/ontology/core#FacultyMember1 (add)\",\"DomainUri\":\"http://vivoweb.org/ontology/core#FacultyMember\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"URI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivo.library.tamu.edu/ontology/TAMU#UID\",\"isPrimary\":true,\"DomainLabel\":\"vivo:FacultyMember1\",\"DomainId\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"DomainUri\":\"http://vivoweb.org/ontology/core#FacultyMember\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP9:WS56673AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship1 (add)\",\"edgeTargetId\":\"http://vivoweb.org/ontology/core#FacultyMember1\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#Authorship\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP9:WS56673AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/AcademicArticle\",\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/AcademicArticle1 (add)\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#Authorship2\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle2\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle2\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Transformation\"],\"inputParameters\":[{\"name\":\"newColumnName\",\"value\":\"authorship_uri\",\"type\":\"other\"},{\"name\":\"transformationCode\",\"value\":\"return \\\"http://vivo.library.tamu.edu/n\\\"+getValue(\\\"URI\\\")+getValue(\\\"ID\\\").replace(\\\" \\\",\\\"_\\\")\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"URI\"}],\"type\":\"hNodeId\"},{\"name\":\"errorDefaultValue\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SubmitPythonTransformationCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"metaPropertyName\",\"value\":\"isUriOfClass\",\"type\":\"other\"},{\"name\":\"metaPropertyValue\",\"value\":\"http://vivoweb.org/ontology/core#Authorship2\",\"type\":\"other\"},{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"authorship_uri\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://isi.edu/integration/karma/dev#classLink\",\"isPrimary\":true,\"DomainLabel\":\"vivo:Authorship2\",\"DomainId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"DomainUri\":\"http://vivoweb.org/ontology/core#Authorship\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetMetaPropertyCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"DOI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/doi\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"DOI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/doi\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle2\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle2\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Title\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ID\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/identifier\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"DOI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/doi\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ISSN\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/issn\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Journal1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/Journal1 (add)\",\"DomainUri\":\"http://purl.org/ontology/bibo/Journal\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Journal OR Published proceedings\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://www.w3.org/2000/01/rdf-schema#label\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Journal1\",\"DomainId\":\"http://purl.org/ontology/bibo/Journal1\",\"DomainUri\":\"http://purl.org/ontology/bibo/Journal\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ISSN\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/issn\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Journal1\",\"DomainId\":\"http://purl.org/ontology/bibo/Journal1\",\"DomainUri\":\"http://purl.org/ontology/bibo/Journal\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Volume\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/volume\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Journal1\",\"DomainId\":\"http://purl.org/ontology/bibo/Journal1\",\"DomainUri\":\"http://purl.org/ontology/bibo/Journal\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/AcademicArticle1\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS1AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/AcademicArticle\",\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"edgeSourceUri\":\"http://vivoweb.org/ontology/core#Authorship\"},{\"edgeTargetUri\":\"http://purl.org/ontology/bibo/Journal\",\"edgeId\":\"http://vivoweb.org/ontology/core#hasPublicationVenue\",\"edgeSourceId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/Journal1\",\"edgeSourceUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"initialEdges\",\"value\":[{\"edgeId\":\"http://vivoweb.org/ontology/core#relates\",\"edgeSourceId\":\"http://vivoweb.org/ontology/core#Authorship2\",\"edgeTargetId\":\"http://purl.org/ontology/bibo/AcademicArticle2\"}],\"type\":\"other\"},{\"name\":\"alignmentId\",\"value\":\"WSP1:WS12AL\",\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"newEdges\",\"value\":[],\"type\":\"other\"}],\"commandName\":\"ChangeInternalNodeLinksCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Pagination (start page)\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/pageStart\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Pagination (end page)\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/pageEnd\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Volume\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/volume\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Issue\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/issue\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ID\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":true,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"UnassignSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"DOI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/doi\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"DOI\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/doi\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"ID\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/identifier\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":true,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"Publication date\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://vivoweb.org/ontology/core#dateTime\",\"isPrimary\":true,\"DomainLabel\":\"bibo:AcademicArticle1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/AcademicArticle1\",\"DomainUri\":\"http://purl.org/ontology/bibo/AcademicArticle\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"},{\"tags\":[\"Modeling\"],\"inputParameters\":[{\"name\":\"hNodeId\",\"value\":[{\"columnName\":\"eISSN\"}],\"type\":\"hNodeId\"},{\"name\":\"SemanticTypesArray\",\"value\":[{\"FullType\":\"http://purl.org/ontology/bibo/eissn\",\"isPrimary\":true,\"DomainLabel\":\"bibo:Journal1 (add)\",\"DomainId\":\"http://purl.org/ontology/bibo/Journal1\",\"DomainUri\":\"http://purl.org/ontology/bibo/Journal\"}],\"type\":\"other\"},{\"name\":\"worksheetId\",\"value\":\"W\",\"type\":\"worksheetId\"},{\"name\":\"isKey\",\"value\":false,\"type\":\"other\"},{\"name\":\"trainAndShowUpdates\",\"value\":false,\"type\":\"other\"},{\"name\":\"rdfLiteralType\",\"value\":\"\",\"type\":\"other\"}],\"commandName\":\"SetSemanticTypeCommand\"}]" .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 a rr:TriplesMap .
+
+_:node191vddp1mx1 km-dev:hasTriplesMap km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx2 rr:tableName "AA5000.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasLogicalTable _:node191vddp1mx2 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:logicalTable _:node191vddp1mx2 ;
+	rr:subjectMap _:node191vddp1mx3 .
+
+_:node191vddp1mx1 km-dev:hasSubjectMap _:node191vddp1mx3 .
+
+_:node191vddp1mx3 km-dev:isPartOfMapping _:node191vddp1mx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://purl.org/ontology/bibo/AcademicArticle1" ;
+	rr:class bibo:AcademicArticle ;
+	rr:template "http://localhost:8080/source/{ID}" .
+
+km-dev:PredicateObjectMap_43b97bbf-5a9d-4f08-a99b-b49438c40165 rr:predicate bibo:doi .
+
+_:node191vddp1mx4 rr:column "DOI" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx4 .
+
+km-dev:PredicateObjectMap_43b97bbf-5a9d-4f08-a99b-b49438c40165 rr:objectMap _:node191vddp1mx4 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_43b97bbf-5a9d-4f08-a99b-b49438c40165 .
+
+km-dev:PredicateObjectMap_43b97bbf-5a9d-4f08-a99b-b49438c40165 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_43b97bbf-5a9d-4f08-a99b-b49438c40165 .
+
+km-dev:PredicateObjectMap_dfd58921-9daf-4877-a72f-ae6b6d8eb8ff rr:predicate bibo:identifier .
+
+_:node191vddp1mx5 rr:column "ID" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx5 .
+
+km-dev:PredicateObjectMap_dfd58921-9daf-4877-a72f-ae6b6d8eb8ff rr:objectMap _:node191vddp1mx5 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_dfd58921-9daf-4877-a72f-ae6b6d8eb8ff .
+
+km-dev:PredicateObjectMap_dfd58921-9daf-4877-a72f-ae6b6d8eb8ff a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dfd58921-9daf-4877-a72f-ae6b6d8eb8ff .
+
+km-dev:PredicateObjectMap_0d82ec86-ff88-4f26-a332-ad1776c6c5db rr:predicate bibo:issue .
+
+_:node191vddp1mx6 rr:column "Issue" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx6 .
+
+km-dev:PredicateObjectMap_0d82ec86-ff88-4f26-a332-ad1776c6c5db rr:objectMap _:node191vddp1mx6 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_0d82ec86-ff88-4f26-a332-ad1776c6c5db .
+
+km-dev:PredicateObjectMap_0d82ec86-ff88-4f26-a332-ad1776c6c5db a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0d82ec86-ff88-4f26-a332-ad1776c6c5db .
+
+km-dev:PredicateObjectMap_d97c9122-18f2-42aa-9ba8-f0ffb6099645 rr:predicate bibo:pageEnd .
+
+_:node191vddp1mx7 rr:column "Pagination (end page)" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx7 .
+
+km-dev:PredicateObjectMap_d97c9122-18f2-42aa-9ba8-f0ffb6099645 rr:objectMap _:node191vddp1mx7 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_d97c9122-18f2-42aa-9ba8-f0ffb6099645 .
+
+km-dev:PredicateObjectMap_d97c9122-18f2-42aa-9ba8-f0ffb6099645 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d97c9122-18f2-42aa-9ba8-f0ffb6099645 .
+
+km-dev:PredicateObjectMap_762e69c0-2dd1-48db-a18d-301b7b5bfe20 rr:predicate bibo:pageStart .
+
+_:node191vddp1mx8 rr:column "Pagination (start page)" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx8 .
+
+km-dev:PredicateObjectMap_762e69c0-2dd1-48db-a18d-301b7b5bfe20 rr:objectMap _:node191vddp1mx8 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_762e69c0-2dd1-48db-a18d-301b7b5bfe20 .
+
+km-dev:PredicateObjectMap_762e69c0-2dd1-48db-a18d-301b7b5bfe20 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_762e69c0-2dd1-48db-a18d-301b7b5bfe20 .
+
+km-dev:PredicateObjectMap_3b05b485-cee5-4ef0-9b78-6ea0c4099544 rr:predicate bibo:volume .
+
+_:node191vddp1mx9 rr:column "Volume" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx9 .
+
+km-dev:PredicateObjectMap_3b05b485-cee5-4ef0-9b78-6ea0c4099544 rr:objectMap _:node191vddp1mx9 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_3b05b485-cee5-4ef0-9b78-6ea0c4099544 .
+
+km-dev:PredicateObjectMap_3b05b485-cee5-4ef0-9b78-6ea0c4099544 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3b05b485-cee5-4ef0-9b78-6ea0c4099544 .
+
+km-dev:PredicateObjectMap_8576eb03-7ab0-459e-952b-1fee46a77a08 rr:predicate vivo:dateTime .
+
+_:node191vddp1mx10 rr:column "Publication date" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx10 .
+
+km-dev:PredicateObjectMap_8576eb03-7ab0-459e-952b-1fee46a77a08 rr:objectMap _:node191vddp1mx10 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_8576eb03-7ab0-459e-952b-1fee46a77a08 .
+
+km-dev:PredicateObjectMap_8576eb03-7ab0-459e-952b-1fee46a77a08 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8576eb03-7ab0-459e-952b-1fee46a77a08 .
+
+km-dev:PredicateObjectMap_3113d9f1-73d8-468a-965c-c6205ae508c8 rr:predicate vivo:hasPublicationVenue .
+
+km-dev:RefObjectMap_957fbbba-9a83-4725-be95-d22b69bc9929 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap km-dev:RefObjectMap_957fbbba-9a83-4725-be95-d22b69bc9929 .
+
+km-dev:PredicateObjectMap_3113d9f1-73d8-468a-965c-c6205ae508c8 rr:objectMap km-dev:RefObjectMap_957fbbba-9a83-4725-be95-d22b69bc9929 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_3113d9f1-73d8-468a-965c-c6205ae508c8 .
+
+km-dev:PredicateObjectMap_3113d9f1-73d8-468a-965c-c6205ae508c8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3113d9f1-73d8-468a-965c-c6205ae508c8 .
+
+km-dev:PredicateObjectMap_7f1a0e19-f3d7-4134-8539-5f6785ed09da rr:predicate rdfs:label .
+
+_:node191vddp1mx11 rr:column "Title" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx11 .
+
+km-dev:PredicateObjectMap_7f1a0e19-f3d7-4134-8539-5f6785ed09da rr:objectMap _:node191vddp1mx11 .
+
+km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 rr:predicateObjectMap km-dev:PredicateObjectMap_7f1a0e19-f3d7-4134-8539-5f6785ed09da .
+
+km-dev:PredicateObjectMap_7f1a0e19-f3d7-4134-8539-5f6785ed09da a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7f1a0e19-f3d7-4134-8539-5f6785ed09da .
+
+km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a a rr:TriplesMap .
+
+_:node191vddp1mx1 km-dev:hasTriplesMap km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a .
+
+km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx12 rr:tableName "AA5000.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasLogicalTable _:node191vddp1mx12 .
+
+km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a rr:logicalTable _:node191vddp1mx12 ;
+	rr:subjectMap _:node191vddp1mx13 .
+
+_:node191vddp1mx1 km-dev:hasSubjectMap _:node191vddp1mx13 .
+
+_:node191vddp1mx13 km-dev:isPartOfMapping _:node191vddp1mx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://purl.org/ontology/bibo/Journal1" ;
+	rr:class bibo:Journal ;
+	rr:template "http://localhost:8080/source/{ISSN}" .
+
+km-dev:PredicateObjectMap_61ac55fb-d99f-44db-aa30-da94c0bbef99 rr:predicate bibo:eissn .
+
+_:node191vddp1mx14 rr:column "eISSN" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx14 .
+
+km-dev:PredicateObjectMap_61ac55fb-d99f-44db-aa30-da94c0bbef99 rr:objectMap _:node191vddp1mx14 .
+
+km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a rr:predicateObjectMap km-dev:PredicateObjectMap_61ac55fb-d99f-44db-aa30-da94c0bbef99 .
+
+km-dev:PredicateObjectMap_61ac55fb-d99f-44db-aa30-da94c0bbef99 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_61ac55fb-d99f-44db-aa30-da94c0bbef99 .
+
+km-dev:PredicateObjectMap_86d1b5e7-fbd9-480c-97b0-0880e5a3c900 rr:predicate bibo:issn .
+
+_:node191vddp1mx15 rr:column "ISSN" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx15 .
+
+km-dev:PredicateObjectMap_86d1b5e7-fbd9-480c-97b0-0880e5a3c900 rr:objectMap _:node191vddp1mx15 .
+
+km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a rr:predicateObjectMap km-dev:PredicateObjectMap_86d1b5e7-fbd9-480c-97b0-0880e5a3c900 .
+
+km-dev:PredicateObjectMap_86d1b5e7-fbd9-480c-97b0-0880e5a3c900 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_86d1b5e7-fbd9-480c-97b0-0880e5a3c900 .
+
+km-dev:PredicateObjectMap_b853a08d-a8f8-4918-a487-9ec0e0f87649 rr:predicate rdfs:label .
+
+_:node191vddp1mx16 rr:column "Journal OR Published proceedings" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx16 .
+
+km-dev:PredicateObjectMap_b853a08d-a8f8-4918-a487-9ec0e0f87649 rr:objectMap _:node191vddp1mx16 .
+
+km-dev:TriplesMap_839962d4-335c-4f85-ac77-f0b94d53eb2a rr:predicateObjectMap km-dev:PredicateObjectMap_b853a08d-a8f8-4918-a487-9ec0e0f87649 .
+
+km-dev:PredicateObjectMap_b853a08d-a8f8-4918-a487-9ec0e0f87649 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b853a08d-a8f8-4918-a487-9ec0e0f87649 .
+
+km-dev:TriplesMap_4c0420c0-a0dd-4114-812c-269f951c69f0 a rr:TriplesMap .
+
+_:node191vddp1mx1 km-dev:hasTriplesMap km-dev:TriplesMap_4c0420c0-a0dd-4114-812c-269f951c69f0 .
+
+km-dev:TriplesMap_4c0420c0-a0dd-4114-812c-269f951c69f0 km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx17 rr:tableName "AA5000.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasLogicalTable _:node191vddp1mx17 .
+
+km-dev:TriplesMap_4c0420c0-a0dd-4114-812c-269f951c69f0 rr:logicalTable _:node191vddp1mx17 ;
+	rr:subjectMap _:node191vddp1mx18 .
+
+_:node191vddp1mx1 km-dev:hasSubjectMap _:node191vddp1mx18 .
+
+_:node191vddp1mx18 km-dev:isPartOfMapping _:node191vddp1mx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#Authorship2" ;
+	rr:class vivo:Authorship ;
+	rr:template "{authorship_uri}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_c7b64db5-0820-44cf-96df-6e250f6f2d9c rr:predicate vivo:relates .
+
+km-dev:RefObjectMap_28be74ed-4bb7-4dfd-a35f-fc7380134228 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_dd9c40d9-e583-430a-9ae2-0f1da1a17736 ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap km-dev:RefObjectMap_28be74ed-4bb7-4dfd-a35f-fc7380134228 .
+
+km-dev:PredicateObjectMap_c7b64db5-0820-44cf-96df-6e250f6f2d9c rr:objectMap km-dev:RefObjectMap_28be74ed-4bb7-4dfd-a35f-fc7380134228 .
+
+km-dev:TriplesMap_4c0420c0-a0dd-4114-812c-269f951c69f0 rr:predicateObjectMap km-dev:PredicateObjectMap_c7b64db5-0820-44cf-96df-6e250f6f2d9c .
+
+km-dev:PredicateObjectMap_c7b64db5-0820-44cf-96df-6e250f6f2d9c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c7b64db5-0820-44cf-96df-6e250f6f2d9c .
+
+km-dev:PredicateObjectMap_1a9237da-5b04-48f9-be1c-574c1351891b rr:predicate vivo:relates .
+
+km-dev:RefObjectMap_3244c3fa-16ae-42d3-bd76-af6a16946076 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_149393a6-cffa-4403-bf43-4bf0e9f5427c ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap km-dev:RefObjectMap_3244c3fa-16ae-42d3-bd76-af6a16946076 .
+
+km-dev:PredicateObjectMap_1a9237da-5b04-48f9-be1c-574c1351891b rr:objectMap km-dev:RefObjectMap_3244c3fa-16ae-42d3-bd76-af6a16946076 .
+
+km-dev:TriplesMap_4c0420c0-a0dd-4114-812c-269f951c69f0 rr:predicateObjectMap km-dev:PredicateObjectMap_1a9237da-5b04-48f9-be1c-574c1351891b .
+
+km-dev:PredicateObjectMap_1a9237da-5b04-48f9-be1c-574c1351891b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1a9237da-5b04-48f9-be1c-574c1351891b .
+
+km-dev:TriplesMap_149393a6-cffa-4403-bf43-4bf0e9f5427c a rr:TriplesMap .
+
+_:node191vddp1mx1 km-dev:hasTriplesMap km-dev:TriplesMap_149393a6-cffa-4403-bf43-4bf0e9f5427c .
+
+km-dev:TriplesMap_149393a6-cffa-4403-bf43-4bf0e9f5427c km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx19 rr:tableName "AA5000.txt" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasLogicalTable _:node191vddp1mx19 .
+
+km-dev:TriplesMap_149393a6-cffa-4403-bf43-4bf0e9f5427c rr:logicalTable _:node191vddp1mx19 ;
+	rr:subjectMap _:node191vddp1mx20 .
+
+_:node191vddp1mx1 km-dev:hasSubjectMap _:node191vddp1mx20 .
+
+_:node191vddp1mx20 km-dev:isPartOfMapping _:node191vddp1mx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://vivoweb.org/ontology/core#FacultyMember1" ;
+	rr:class vivo:FacultyMember ;
+	rr:template "http://localhost:8080/source/{URI}" .
+
+km-dev:PredicateObjectMap_1b49cd58-f5e4-4cad-9556-3e7107a9a448 rr:predicate tamu:UID .
+
+_:node191vddp1mx21 rr:column "URI" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasObjectMap _:node191vddp1mx21 .
+
+km-dev:PredicateObjectMap_1b49cd58-f5e4-4cad-9556-3e7107a9a448 rr:objectMap _:node191vddp1mx21 .
+
+km-dev:TriplesMap_149393a6-cffa-4403-bf43-4bf0e9f5427c rr:predicateObjectMap km-dev:PredicateObjectMap_1b49cd58-f5e4-4cad-9556-3e7107a9a448 .
+
+km-dev:PredicateObjectMap_1b49cd58-f5e4-4cad-9556-3e7107a9a448 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node191vddp1mx1 .
+
+_:node191vddp1mx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1b49cd58-f5e4-4cad-9556-3e7107a9a448 .

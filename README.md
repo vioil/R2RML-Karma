@@ -36,3 +36,18 @@ Where:
 5. PublishDate - is the date of publications
 6. InstitutionFacultyId is in fact our local unique identifier for a person 
 
+
+R2RMLBookCh.txt can be used with a CSV or TSV file that has the following columns:
+
+BookChapterId	Title	Author	Editor	ISBN	PublishDate	PublishYear	PersonName	URI	ChapterTitle
+
+Where:
+
+1. BookChapterID - is the chapter unique identifier
+2. Title - the title of the Book
+3. Author
+4. ISBN
+5. Publish Year
+6. PersonName
+7. URI - the unique identifier for the person
+8. ChapterTitle - title of the book chapter

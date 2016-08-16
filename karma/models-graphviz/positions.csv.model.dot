@@ -1,0 +1,25 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="positions.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="Position1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="FacultyMember1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="Organization1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="job_title"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="UID"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="position_type"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="org_ID"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="position_uri"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="org_name"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="relates"]
+n2 -> n4[color="brown",fontcolor="black",label="relates"]
+n3 -> n5[color="brown",fontcolor="black",label="hrJobTitle"]
+n3 -> n6[color="brown",fontcolor="black",label="classLink"]
+n2 -> n7[color="brown",fontcolor="black",label="label"]
+n4 -> n8[color="brown",fontcolor="black",label="classLink"]
+n2 -> n9[color="brown",fontcolor="black",label="classLink"]
+n4 -> n10[color="brown",fontcolor="black",label="label"]
+}

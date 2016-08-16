@@ -1,0 +1,65 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="main graph"
+n1[style="filled",color="white",fillcolor="lightgray",label="FacultyMember1"];
+n2[style="filled",color="white",fillcolor="lightgray",label="DateTimeValue2"];
+n3[style="filled",color="white",fillcolor="lightgray",label="DateTimeValue1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="Individual1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="Email1"];
+n6[style="filled",color="white",fillcolor="lightgray",label="Name1"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="FirstName"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="FullName"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="MidName"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="LastName"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="date_hired"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="Email"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="Title"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="date_terminated"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="date_hiredURI"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="UID"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="date_terminatedURI"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="email_uri"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="name_URI"];
+n20[shape="plaintext",style="filled",fillcolor="gold",label="vcard_uri"];
+n21[shape="plaintext",style="filled",fillcolor="gold",label="ORCID"];
+n22[shape="plaintext",style="filled",fillcolor="gold",label="date_hired"];
+n23[shape="plaintext",style="filled",fillcolor="gold",label="date_terminated"];
+n24[style="filled",color="white",fillcolor="lightgray",label="FacultyPosition1"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="Title"];
+n26[style="filled",color="white",fillcolor="lightgray",label="Position1"];
+n27[style="filled",color="white",fillcolor="lightgray",label="Organization1"];
+n28[shape="plaintext",style="filled",fillcolor="gold",label="position_type"];
+n29[shape="plaintext",style="filled",fillcolor="gold",label="org_ID"];
+n30[shape="plaintext",style="filled",fillcolor="gold",label="position_uri"];
+n31[shape="plaintext",style="filled",fillcolor="gold",label="org_name"];
+n1 -> n2[color="brown",fontcolor="black",label="start\nw=0.6"]
+n1 -> n3[color="brown",fontcolor="black",label="end\nw=0.6"]
+n1 -> n4[color="brown",fontcolor="black",label="ARG_2000028\nw=0.6"]
+n4 -> n5[color="brown",fontcolor="black",label="hasEmail\nw=0.6"]
+n4 -> n6[color="brown",fontcolor="black",label="hasName\nw=0.6"]
+n6 -> n7[color="brown",fontcolor="black",label="givenName\nw=1.0"]
+n1 -> n8[color="brown",fontcolor="black",label="label\nw=1.0"]
+n6 -> n9[color="brown",fontcolor="black",label="middleName\nw=1.0"]
+n6 -> n10[color="brown",fontcolor="black",label="familyName\nw=1.0"]
+n2 -> n11[color="brown",fontcolor="black",label="dateTime\nw=1.0"]
+n5 -> n12[color="brown",fontcolor="black",label="email\nw=1.0"]
+n1 -> n13[color="brown",fontcolor="black",label="hrJobTitle\nw=1.0"]
+n3 -> n14[color="brown",fontcolor="black",label="dateTime\nw=1.0"]
+n2 -> n15[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n1 -> n16[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n3 -> n17[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n5 -> n18[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n6 -> n19[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n4 -> n20[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n4 -> n21[color="brown",fontcolor="black",label="scopusId\nw=1.0"]
+n2 -> n22[color="brown",fontcolor="black",label="hasValue\nw=1.0"]
+n3 -> n23[color="brown",fontcolor="black",label="hasValue\nw=1.0"]
+n24 -> n25[color="brown",fontcolor="black",label="hrJobTitle\nw=1.0"]
+n26 -> n1[color="brown",fontcolor="black",label="relates\nw=0.333333"]
+n26 -> n27[color="brown",fontcolor="black",label="relates\nw=0.333333"]
+n26 -> n28[color="brown",fontcolor="black",label="label\nw=1.0"]
+n27 -> n29[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n26 -> n30[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n27 -> n31[color="brown",fontcolor="black",label="label\nw=1.0"]
+}

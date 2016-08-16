@@ -1,0 +1,866 @@
+{
+    "nodes": [
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Individual1",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#Individual"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue1",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#DateTimeValue"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue2",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#DateTimeValue"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#FacultyMember"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "positions.csv",
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Email1",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#Email"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Name1",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#Name"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "A08649D4-2CDC-1421-1222-AE78050C5264",
+            "label": {
+                "uri": "HN12"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN12",
+            "columnName": "FirstName",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "2C845A6B-4F00-EDDF-21B2-AA54D06E7FE6",
+            "label": {
+                "uri": "HN11"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN11",
+            "columnName": "FullName",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "EBC10FC4-1AA0-9DFE-4AF3-0072C74419E5",
+            "label": {
+                "uri": "HN14"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN14",
+            "columnName": "MidName",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "95419918-D6D0-65AC-D85A-5230093894F1",
+            "label": {
+                "uri": "HN13"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN13",
+            "columnName": "LastName",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "530B1A6F-71FB-2BD1-4E06-A72315A4FC32",
+            "label": {
+                "uri": "HN16"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN16",
+            "columnName": "date_hired",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "BC424925-8F64-A7F1-9A85-AAA76E4F1864",
+            "label": {
+                "uri": "HN15"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN15",
+            "columnName": "Email",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "A2050F87-092B-6337-CA80-695DA76E0CDB",
+            "label": {
+                "uri": "HN18"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN18",
+            "columnName": "Title",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "positions.csv",
+                "person.csv"
+            ]
+        },
+        {
+            "id": "DE691B06-A05C-40B5-FEF3-E0569F3AB8F0",
+            "label": {
+                "uri": "HN17"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN17",
+            "columnName": "date_terminated",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "B0857336-B23D-B3D9-1B98-01E6CDB8BCC4",
+            "label": {
+                "uri": "HN1503"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN1503",
+            "columnName": "date_hiredURI",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "D7C8A0E3-5ED7-BA1F-6FFF-8A08F34E2760",
+            "label": {
+                "uri": "HN8"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN8",
+            "columnName": "UID",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "positions.csv",
+                "person.csv"
+            ]
+        },
+        {
+            "id": "6E351E52-4EE5-652A-D16B-C3482CAF9FC8",
+            "label": {
+                "uri": "HN1611"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN1611",
+            "columnName": "date_terminatedURI",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "B48500C0-ADC0-EE34-7B07-093334A1B64A",
+            "label": {
+                "uri": "HN1279"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN1279",
+            "columnName": "email_uri",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "FDF2B4FF-F564-094B-428D-75E76F172D61",
+            "label": {
+                "uri": "HN1730"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN1730",
+            "columnName": "name_URI",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "FA710AD7-A188-C31B-7648-17D7D427AC13",
+            "label": {
+                "uri": "HN1387"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN1387",
+            "columnName": "vcard_uri",
+            "rdfLiteralType": null,
+            "language": null,
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "77DB93B6-5C40-CD6A-0DA2-69ABC342F236",
+            "label": {
+                "uri": "HN10"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN10",
+            "columnName": "ORCID",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "0618F93F-73F9-EAC3-021C-126CD0C0DE11",
+            "label": {
+                "uri": "HN16"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN16",
+            "columnName": "date_hired",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "374F8E12-7C8C-E5E7-B45F-32F564F8A898",
+            "label": {
+                "uri": "HN17"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN17",
+            "columnName": "date_terminated",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyPosition1",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#FacultyPosition"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "2E8E37E9-FF68-B869-D7BD-D55D97BD2D58",
+            "label": {
+                "uri": "HN18"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN18",
+            "columnName": "Title",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Organization1",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#Organization"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "positions.csv",
+                "organisations.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#Position"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "AADACA55-5BA1-8822-9947-303992F91568",
+            "label": {
+                "uri": "HN10"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN10",
+            "columnName": "position_type",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "1A8B80AD-4D40-E7BD-2385-DC7233600D8E",
+            "label": {
+                "uri": "HN12"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN12",
+            "columnName": "org_ID",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "positions.csv",
+                "organisations.csv"
+            ]
+        },
+        {
+            "id": "F6CE9286-218F-598C-5BE2-FED66DE89F04",
+            "label": {
+                "uri": "HN651"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN651",
+            "columnName": "position_uri",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "F3EE00BB-1EB0-2502-D7E0-8BD0E71CA8BA",
+            "label": {
+                "uri": "HN11"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN11",
+            "columnName": "org_name",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "positions.csv",
+                "organisations.csv"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#start---http://vivoweb.org/ontology/core#DateTimeValue2",
+            "weight": 0.6,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#start"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#end---http://vivoweb.org/ontology/core#DateTimeValue1",
+            "weight": 0.6,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#end"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://purl.obolibrary.org/obo/ARG_2000028---http://www.w3.org/2006/vcard/ns#Individual1",
+            "weight": 0.6,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://purl.obolibrary.org/obo/ARG_2000028"
+            },
+            "objectPropertyType": "WithOnlyRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Individual1---http://www.w3.org/2006/vcard/ns#hasEmail---http://www.w3.org/2006/vcard/ns#Email1",
+            "weight": 0.6,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#hasEmail"
+            },
+            "objectPropertyType": "WithOnlyRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Individual1---http://www.w3.org/2006/vcard/ns#hasName---http://www.w3.org/2006/vcard/ns#Name1",
+            "weight": 0.6,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#hasName"
+            },
+            "objectPropertyType": "WithOnlyRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Name1---http://www.w3.org/2006/vcard/ns#givenName---A08649D4-2CDC-1421-1222-AE78050C5264",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#givenName"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://www.w3.org/2000/01/rdf-schema#label---2C845A6B-4F00-EDDF-21B2-AA54D06E7FE6",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Name1---http://vivoweb.org/ontology/core#middleName---EBC10FC4-1AA0-9DFE-4AF3-0072C74419E5",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#middleName"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Name1---http://www.w3.org/2006/vcard/ns#familyName---95419918-D6D0-65AC-D85A-5230093894F1",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#familyName"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue2---http://vivoweb.org/ontology/core#dateTime---530B1A6F-71FB-2BD1-4E06-A72315A4FC32",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#dateTime"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Email1---http://www.w3.org/2006/vcard/ns#email---BC424925-8F64-A7F1-9A85-AAA76E4F1864",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2006/vcard/ns#email"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#hrJobTitle---A2050F87-092B-6337-CA80-695DA76E0CDB",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#hrJobTitle"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "positions.csv",
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue1---http://vivoweb.org/ontology/core#dateTime---DE691B06-A05C-40B5-FEF3-E0569F3AB8F0",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#dateTime"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue2---http://isi.edu/integration/karma/dev#classLink---B0857336-B23D-B3D9-1B98-01E6CDB8BCC4",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://isi.edu/integration/karma/dev#classLink---D7C8A0E3-5ED7-BA1F-6FFF-8A08F34E2760",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "positions.csv",
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue1---http://isi.edu/integration/karma/dev#classLink---6E351E52-4EE5-652A-D16B-C3482CAF9FC8",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Email1---http://isi.edu/integration/karma/dev#classLink---B48500C0-ADC0-EE34-7B07-093334A1B64A",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Name1---http://isi.edu/integration/karma/dev#classLink---FDF2B4FF-F564-094B-428D-75E76F172D61",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Individual1---http://isi.edu/integration/karma/dev#classLink---FA710AD7-A188-C31B-7648-17D7D427AC13",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#start---http://vivoweb.org/ontology/core#DateTimeValue1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#start"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": []
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#end---http://vivoweb.org/ontology/core#DateTimeValue2",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#end"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": []
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Individual1---http://vivoweb.org/ontology/core#scopusId---77DB93B6-5C40-CD6A-0DA2-69ABC342F236",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#scopusId"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue2---http://vivoweb.org/ontology/core#hasValue---0618F93F-73F9-EAC3-021C-126CD0C0DE11",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#hasValue"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#DateTimeValue1---http://vivoweb.org/ontology/core#hasValue---374F8E12-7C8C-E5E7-B45F-32F564F8A898",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#hasValue"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyPosition1---http://vivoweb.org/ontology/core#hrJobTitle---2E8E37E9-FF68-B869-D7BD-D55D97BD2D58",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#hrJobTitle"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#relates---http://vivoweb.org/ontology/core#FacultyMember1",
+            "weight": 0.33333333333333337,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#relates"
+            },
+            "objectPropertyType": "WithoutDomainAndRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#relates---http://www.w3.org/2006/vcard/ns#Organization1",
+            "weight": 0.33333333333333337,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#relates"
+            },
+            "objectPropertyType": "WithoutDomainAndRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://www.w3.org/2000/01/rdf-schema#label---AADACA55-5BA1-8822-9947-303992F91568",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Organization1---http://isi.edu/integration/karma/dev#classLink---1A8B80AD-4D40-E7BD-2385-DC7233600D8E",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "positions.csv",
+                "organisations.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://isi.edu/integration/karma/dev#classLink---F6CE9286-218F-598C-5BE2-FED66DE89F04",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "positions.csv"
+            ]
+        },
+        {
+            "id": "http://www.w3.org/2006/vcard/ns#Organization1---http://www.w3.org/2000/01/rdf-schema#label---F3EE00BB-1EB0-2502-D7E0-8BD0E71CA8BA",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "positions.csv",
+                "organisations.csv"
+            ]
+        }
+    ]
+}

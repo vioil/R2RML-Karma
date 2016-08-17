@@ -45,6 +45,8 @@ Temporary Items
 
 karma/models-autosave
 karma/models-json
+karma/alignment-graph
 karma/textual-semantic-type-files
+karma/numeric-semantic-type-files
 karma/user-preferences
 karma/user-uploaded-files

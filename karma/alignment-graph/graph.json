@@ -30,6 +30,7 @@
             "type": "InternalNode",
             "modelIds": [
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -42,6 +43,7 @@
             "modelIds": [
                 "positions.csv",
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -215,6 +217,7 @@
             "learnedSemanticTypes": null,
             "modelIds": [
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -233,6 +236,7 @@
             "modelIds": [
                 "positions.csv",
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -334,6 +338,7 @@
             "learnedSemanticTypes": null,
             "modelIds": [
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -500,6 +505,308 @@
             "learnedSemanticTypes": null,
             "modelIds": [
                 "person.tsv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/AcademicArticle"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Authorship1",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#Authorship"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/Journal1",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/Journal"
+            },
+            "type": "InternalNode",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "11AE3730-E1CC-730A-F9A7-D0BC847C8ACB",
+            "label": {
+                "uri": "HN10"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN10",
+            "columnName": "Title",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "0663936A-A831-0C44-C983-C133E5710010",
+            "label": {
+                "uri": "HN21"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN21",
+            "columnName": "ISSN",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "BD9C65C3-C222-B7E6-3F6D-D55FB72765BF",
+            "label": {
+                "uri": "HN20"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN20",
+            "columnName": "DOI",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "682F3498-AF4F-8670-4A08-EF828A6B0427",
+            "label": {
+                "uri": "HN12"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN12",
+            "columnName": "journal_abbreviation",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "22299453-817C-513D-F1CE-0D1ACB889FAD",
+            "label": {
+                "uri": "HN23"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN23",
+            "columnName": "pubmed",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "8CDAC5E2-AEFF-0DC1-95C5-B8FDBAAA80A5",
+            "label": {
+                "uri": "HN78"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN78",
+            "columnName": "authorship_uri",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "66611373-C0A3-2125-222C-E440C2EE2C13",
+            "label": {
+                "uri": "HN11"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN11",
+            "columnName": "Journal OR Published proceedings",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "A161AD47-6808-360D-372F-2989228CC3D2",
+            "label": {
+                "uri": "HN25"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN25",
+            "columnName": "abstract",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "573BB5A7-4EF3-DC57-FCCB-F4D91E87A586",
+            "label": {
+                "uri": "HN24"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN24",
+            "columnName": "pubmedcentral",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "95A7AF24-6EE5-863D-98AF-A831E45328F6",
+            "label": {
+                "uri": "HN16"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN16",
+            "columnName": "Issue",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "5427AD9F-E8E1-425A-6D96-32B6B2905D96",
+            "label": {
+                "uri": "HN27"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN27",
+            "columnName": "Mesh Terms",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "02446241-F442-A6B4-FB05-080BB550D43D",
+            "label": {
+                "uri": "HN15"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN15",
+            "columnName": "Volume",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "9DBE02A4-CF69-1608-E771-33277CDF235D",
+            "label": {
+                "uri": "HN26"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN26",
+            "columnName": "Full Authors",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "76D1F32B-19F3-4323-B41B-91442332D56E",
+            "label": {
+                "uri": "HN18"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN18",
+            "columnName": "Pagination (start page)",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "A2533057-D2D2-7B25-D9B0-C1A6CEE5E9C9",
+            "label": {
+                "uri": "HN17"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN17",
+            "columnName": "pages",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "29DCD7A7-5D54-213B-5EF5-B5FC9C68B326",
+            "label": {
+                "uri": "HN19"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN19",
+            "columnName": "Pagination (end page)",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "E315995B-C19D-A320-E5DA-518C82FF171B",
+            "label": {
+                "uri": "HN8"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN8",
+            "columnName": "ID",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "articles.csv"
             ]
         }
     ],
@@ -698,6 +1005,7 @@
             "keyInfo": "UriOfInstance",
             "modelIds": [
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -713,6 +1021,7 @@
             "modelIds": [
                 "positions.csv",
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -820,6 +1129,7 @@
             "keyInfo": "None",
             "modelIds": [
                 "person.tsv",
+                "articles.csv",
                 "person.csv"
             ]
         },
@@ -1026,6 +1336,323 @@
             "modelIds": [
                 "person.tsv"
             ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivoweb.org/ontology/core#hasPublicationVenue---http://purl.org/ontology/bibo/Journal1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#hasPublicationVenue"
+            },
+            "objectPropertyType": "WithoutDomainAndRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivoweb.org/ontology/extensions#isProductOfAuthorship---http://vivoweb.org/ontology/core#Authorship1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/extensions#isProductOfAuthorship"
+            },
+            "objectPropertyType": "Direct",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Authorship1---http://vivoweb.org/ontology/core#relates---http://vivoweb.org/ontology/core#FacultyMember1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#relates"
+            },
+            "objectPropertyType": "WithoutDomainAndRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#dateTimeValue---http://vivoweb.org/ontology/core#DateTimeValue2",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#dateTimeValue"
+            },
+            "objectPropertyType": "WithOnlyRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://www.w3.org/2000/01/rdf-schema#label---11AE3730-E1CC-730A-F9A7-D0BC847C8ACB",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/issn---0663936A-A831-0C44-C983-C133E5710010",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/issn"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/doi---BD9C65C3-C222-B7E6-3F6D-D55FB72765BF",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/doi"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/Journal1---http://vivoweb.org/ontology/core#abbreviation---682F3498-AF4F-8670-4A08-EF828A6B0427",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#abbreviation"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/pmid---22299453-817C-513D-F1CE-0D1ACB889FAD",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/pmid"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Authorship1---http://isi.edu/integration/karma/dev#classLink---8CDAC5E2-AEFF-0DC1-95C5-B8FDBAAA80A5",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/Journal1---http://www.w3.org/2000/01/rdf-schema#label---66611373-C0A3-2125-222C-E440C2EE2C13",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://www.w3.org/2000/01/rdf-schema#label"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/abstract---A161AD47-6808-360D-372F-2989228CC3D2",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/abstract"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivoweb.org/ontology/core#pmcid---573BB5A7-4EF3-DC57-FCCB-F4D91E87A586",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#pmcid"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/issue---95A7AF24-6EE5-863D-98AF-A831E45328F6",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/issue"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivo.northwestern.edu/ontology/vlocal#meshTerms---5427AD9F-E8E1-425A-6D96-32B6B2905D96",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivo.northwestern.edu/ontology/vlocal#meshTerms"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/volume---02446241-F442-A6B4-FB05-080BB550D43D",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/volume"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList---9DBE02A4-CF69-1608-E771-33277CDF235D",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivo.northwestern.edu/ontology/vlocal#fullAuthorList"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/pageStart---76D1F32B-19F3-4323-B41B-91442332D56E",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/pageStart"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/numPages---A2533057-D2D2-7B25-D9B0-C1A6CEE5E9C9",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/numPages"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://purl.org/ontology/bibo/pageEnd---29DCD7A7-5D54-213B-5EF5-B5FC9C68B326",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://purl.org/ontology/bibo/pageEnd"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://isi.edu/integration/karma/dev#classLink---E315995B-C19D-A320-E5DA-518C82FF171B",
+            "weight": 1.0,
+            "type": "ClassInstanceLink",
+            "label": {
+                "uri": "http://isi.edu/integration/karma/dev#classLink"
+            },
+            "status": "Normal",
+            "keyInfo": "UriOfInstance",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/extensions#isAuthorInAuthorship---http://vivoweb.org/ontology/core#Authorship1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/extensions#isAuthorInAuthorship"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Authorship1---http://vivoweb.org/ontology/core#relates---http://purl.org/ontology/bibo/AcademicArticle1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#relates"
+            },
+            "objectPropertyType": "WithoutDomainAndRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#dateTimeValue---http://vivoweb.org/ontology/core#DateTimeValue1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#dateTimeValue"
+            },
+            "objectPropertyType": "WithOnlyRange",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": []
         }
     ]
 }

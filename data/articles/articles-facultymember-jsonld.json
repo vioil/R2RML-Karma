@@ -1,0 +1,78 @@
+[
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "dateTimeValue": {
+        "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+        "hasValue": "2003-08-11T00:00:00",
+        "uri": "http://ex.com/authorship/90e6f6c0/12345/date"
+    },
+    "isAuthorInAuthorship": {
+        "a": "http://vivoweb.org/ontology/core#Authorship",
+        "relates": [
+            "http://ex.com/90e6f6c0",
+            {
+                "a": "http://purl.org/ontology/bibo/AcademicArticle",
+                "issue": "1",
+                "isProductOfAuthorship": "http://ex.com/authorship/90e6f6c0/12345",
+                "fullAuthorList": "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter",
+                "label": "Disruption Of Period Gene Expression Alters The Inductive Effects Of Dioxin On The Ahr Signaling Pathway In The Mouse Liver",
+                "pmid": "34567",
+                "uri": "http://ex.com/12345",
+                "volume": "23",
+                "numPages": "8",
+                "issn": "0041-008x",
+                "hasPublicationVenue": {
+                    "a": "http://purl.org/ontology/bibo/Journal",
+                    "label": "Toxicology And Applied Pharmacology"
+                },
+                "pageStart": "263",
+                "pageEnd": "271",
+                "meshTerms": "Animals; Animals Newborn/genetics; Animals Newborn/growth and development; Animals Newborn/metabolism; Biological Clocks/genetics; Cell Cycle/genetics; Genetic Markers;",
+                "pmcid": "PMC12345",
+                "doi": "10.1016/j.taap.2008.10.016"
+            }
+        ],
+        "uri": "http://ex.com/authorship/90e6f6c0/12345"
+    },
+    "uri": "http://ex.com/90e6f6c0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-articles_csv-context.json"
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "dateTimeValue": {
+        "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+        "hasValue": "2006-02-01T00:00:00",
+        "uri": "http://ex.com/authorship/90e6f6c0/23456/date"
+    },
+    "isAuthorInAuthorship": {
+        "a": "http://vivoweb.org/ontology/core#Authorship",
+        "relates": [
+            "http://ex.com/90e6f6c0",
+            {
+                "a": "http://purl.org/ontology/bibo/AcademicArticle",
+                "issue": "1",
+                "isProductOfAuthorship": "http://ex.com/authorship/90e6f6c0/23456",
+                "fullAuthorList": "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter",
+                "label": "Distinct Immunomodulatory Effects Of A Panel Of Nanomaterials In Human Dermal Fibroblasts",
+                "pmid": "45678",
+                "uri": "http://ex.com/23456",
+                "volume": "30",
+                "numPages": "8",
+                "issn": "0378-4274",
+                "hasPublicationVenue": {
+                    "a": "http://purl.org/ontology/bibo/Journal",
+                    "label": "Toxicology Letters"
+                },
+                "pageStart": "58",
+                "pageEnd": "66",
+                "meshTerms": "Adult; Aflatoxins/metabolism; Aflatoxins/poisoning; Age Factors; Aged; Environmental Monitoring; Female; Ghana;",
+                "pmcid": "PMC23456",
+                "doi": "10.1016/j.toxlet.2012.01.022"
+            }
+        ],
+        "uri": "http://ex.com/authorship/90e6f6c0/23456"
+    },
+    "uri": "http://ex.com/90e6f6c0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-articles_csv-context.json"
+}
+]

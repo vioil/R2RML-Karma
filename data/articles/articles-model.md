@@ -29,11 +29,13 @@ return getValue("authorship_uri")+"/date"
 | _LastName_ | `vcard:familyName` | `vcard:Name1`|
 | _Mesh Terms_ | `vlocal:meshTerms` | `bibo:AcademicArticle1`|
 | _MidName_ | `vivo:middleName` | `vcard:Name1`|
+| _NETID_ | `vlocal:netID` | `vivo:FacultyMember1`|
 | _ORCID_ | `vivo:scopusId` | `vcard:Individual1`|
 | _Pagination (end page)_ | `bibo:pageEnd` | `bibo:AcademicArticle1`|
 | _Pagination (start page)_ | `bibo:pageStart` | `bibo:AcademicArticle1`|
 | _Publication Date1_ | `vivo:hasValue` | `vivo:DateTimeValue1`|
 | _Title_ | `rdfs:label` | `bibo:AcademicArticle1`|
+| _Title_ | `vivo:hrJobTitle` | `vivo:Position1`|
 | _Title_ | `vivo:hrJobTitle` | `vivo:FacultyMember1`|
 | _Title_ | `vivo:hrJobTitle` | `vivo:FacultyPosition1`|
 | _UID_ | `uri` | `vivo:FacultyMember1`|
@@ -65,6 +67,8 @@ return getValue("authorship_uri")+"/date"
 | From | Property | To |
 |  --- | -------- | ---|
 | `bibo:AcademicArticle1` | `vivo:hasPublicationVenue` | `bibo:Journal1`|
-| `vivo:Authorship1` | `vivo:relates` | `bibo:AcademicArticle1`|
+| `bibo:AcademicArticle1` | `vivoext:isProductOfAuthorship` | `vivo:Authorship1`|
 | `vivo:Authorship1` | `vivo:relates` | `vivo:FacultyMember1`|
+| `vivo:Authorship1` | `vivo:relates` | `bibo:AcademicArticle1`|
 | `vivo:FacultyMember1` | `vivo:dateTimeValue` | `vivo:DateTimeValue1`|
+| `vivo:FacultyMember1` | `vivoext:isAuthorInAuthorship` | `vivo:Authorship1`|

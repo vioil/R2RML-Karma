@@ -35,6 +35,26 @@ n30[shape="plaintext",style="filled",fillcolor="gold",label="position_uri"];
 n31[shape="plaintext",style="filled",fillcolor="gold",label="org_name"];
 n32[shape="plaintext",style="filled",fillcolor="gold",label="NETID"];
 n33[shape="plaintext",style="filled",fillcolor="gold",label="Title"];
+n34[style="filled",color="white",fillcolor="lightgray",label="AcademicArticle1"];
+n35[style="filled",color="white",fillcolor="lightgray",label="Journal1"];
+n36[style="filled",color="white",fillcolor="lightgray",label="Authorship1"];
+n37[shape="plaintext",style="filled",fillcolor="gold",label="Title"];
+n38[shape="plaintext",style="filled",fillcolor="gold",label="ISSN"];
+n39[shape="plaintext",style="filled",fillcolor="gold",label="DOI"];
+n40[shape="plaintext",style="filled",fillcolor="gold",label="journal_abbreviation"];
+n41[shape="plaintext",style="filled",fillcolor="gold",label="pubmed"];
+n42[shape="plaintext",style="filled",fillcolor="gold",label="authorship_uri"];
+n43[shape="plaintext",style="filled",fillcolor="gold",label="Journal OR Published proceedings"];
+n44[shape="plaintext",style="filled",fillcolor="gold",label="abstract"];
+n45[shape="plaintext",style="filled",fillcolor="gold",label="pubmedcentral"];
+n46[shape="plaintext",style="filled",fillcolor="gold",label="Issue"];
+n47[shape="plaintext",style="filled",fillcolor="gold",label="Mesh Terms"];
+n48[shape="plaintext",style="filled",fillcolor="gold",label="Volume"];
+n49[shape="plaintext",style="filled",fillcolor="gold",label="Full Authors"];
+n50[shape="plaintext",style="filled",fillcolor="gold",label="Pagination (start page)"];
+n51[shape="plaintext",style="filled",fillcolor="gold",label="pages"];
+n52[shape="plaintext",style="filled",fillcolor="gold",label="Pagination (end page)"];
+n53[shape="plaintext",style="filled",fillcolor="gold",label="ID"];
 n1 -> n2[color="brown",fontcolor="black",label="start\nw=0.6"]
 n1 -> n3[color="brown",fontcolor="black",label="end\nw=0.6"]
 n1 -> n4[color="brown",fontcolor="black",label="ARG_2000028\nw=-0.5"]
@@ -69,4 +89,27 @@ n26 -> n2[color="brown",fontcolor="black",label="start\nw=0.0"]
 n26 -> n3[color="brown",fontcolor="black",label="end\nw=0.0"]
 n26 -> n33[color="brown",fontcolor="black",label="hrJobTitle\nw=1.0"]
 n1 -> n26[color="brown",fontcolor="black",label="RO_0000053\nw=1.0"]
+n34 -> n35[color="brown",fontcolor="black",label="hasPublicationVenue\nw=1.0"]
+n34 -> n36[color="brown",fontcolor="black",label="isProductOfAuthorship\nw=1.0"]
+n36 -> n1[color="brown",fontcolor="black",label="relates\nw=1.0"]
+n1 -> n2[color="brown",fontcolor="black",label="dateTimeValue\nw=1.0"]
+n34 -> n37[color="brown",fontcolor="black",label="label\nw=1.0"]
+n34 -> n38[color="brown",fontcolor="black",label="issn\nw=1.0"]
+n34 -> n39[color="brown",fontcolor="black",label="doi\nw=1.0"]
+n35 -> n40[color="brown",fontcolor="black",label="abbreviation\nw=1.0"]
+n34 -> n41[color="brown",fontcolor="black",label="pmid\nw=1.0"]
+n36 -> n42[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n35 -> n43[color="brown",fontcolor="black",label="label\nw=1.0"]
+n34 -> n44[color="brown",fontcolor="black",label="abstract\nw=1.0"]
+n34 -> n45[color="brown",fontcolor="black",label="pmcid\nw=1.0"]
+n34 -> n46[color="brown",fontcolor="black",label="issue\nw=1.0"]
+n34 -> n47[color="brown",fontcolor="black",label="meshTerms\nw=1.0"]
+n34 -> n48[color="brown",fontcolor="black",label="volume\nw=1.0"]
+n34 -> n49[color="brown",fontcolor="black",label="fullAuthorList\nw=1.0"]
+n34 -> n50[color="brown",fontcolor="black",label="pageStart\nw=1.0"]
+n34 -> n51[color="brown",fontcolor="black",label="numPages\nw=1.0"]
+n34 -> n52[color="brown",fontcolor="black",label="pageEnd\nw=1.0"]
+n34 -> n53[color="brown",fontcolor="black",label="classLink\nw=1.0"]
+n1 -> n36[color="brown",fontcolor="black",label="isAuthorInAuthorship\nw=1.0"]
+n36 -> n34[color="brown",fontcolor="black",label="relates\nw=1.0"]
 }

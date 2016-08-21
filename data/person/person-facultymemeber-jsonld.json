@@ -1,0 +1,4351 @@
+[
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/F9B6123646E1780A46EA9FF235B6E6CEF7FA88DF",
+            "email": "Sadav@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Manjit",
+            "familyName": "Sadav",
+            "middleName": "S",
+            "uri": "http://ex.com/vivo/name/4135CDC84D76A04D1BA50FDA3A980A4F1651BB6E"
+        },
+        "uri": "http://ex.com/vivo/2dec06e9/individual"
+    },
+    "netID": "Sadav",
+    "label": "Sadav, Manjit S.",
+    "uri": "http://ex.com/vivo/2dec06e9",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/2dec06e9",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/2dec06e9/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/2dec06e9/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/2dec06e9/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/28358464C2199F7B1261F9B7345AD60FA7AAAD6A",
+            "email": "mindyGergman@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Mindy",
+            "familyName": "Gergman",
+            "middleName": "E",
+            "uri": "http://ex.com/vivo/name/F08AC5B146AC50AD127D938F7029EB21D9C97BAB"
+        },
+        "uri": "http://ex.com/vivo/c81ef444/individual"
+    },
+    "netID": "mindyGergman",
+    "label": "Gergman, Mindy E.",
+    "uri": "http://ex.com/vivo/c81ef444",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/c81ef444",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c81ef444/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c81ef444/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/c81ef444/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/4EAC3F71D7F93F8029373C1E7C90E63D5F55923B",
+            "email": "t_Vay@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Matilda",
+            "familyName": "Vay",
+            "middleName": "W",
+            "uri": "http://ex.com/vivo/name/BF19EB21231E6578BF3FAFEC0CF72DDAAD78B9BC"
+        },
+        "uri": "http://ex.com/vivo/5c2cef0e/individual"
+    },
+    "netID": "t_Vay",
+    "label": "Vay, Matilda W.",
+    "uri": "http://ex.com/vivo/5c2cef0e",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/5c2cef0e",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5c2cef0e/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5c2cef0e/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/5c2cef0e/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/CE14FFDE482CEE4F8D09FDC7AD31E5947E22B2FE",
+            "email": "sBach@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Susan",
+            "familyName": "Bach",
+            "middleName": "A",
+            "uri": "http://ex.com/vivo/name/B2ACCA09BA7EF2E4BF030E7FCA5F2034CF85FF98"
+        },
+        "uri": "http://ex.com/vivo/b6f25071/individual"
+    },
+    "netID": "sBach",
+    "label": "Bach, Susan A.",
+    "uri": "http://ex.com/vivo/b6f25071",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Associate Professor",
+        "relates": "http://ex.com/vivo/b6f25071",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b6f25071/associate_clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b6f25071/associate_clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Associate Professor",
+        "uri": "http://ex.com/vivo/postion/b6f25071/associate_clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/A6A8896DE4DE98BD25C0A3202F2F6B90814CFFA0",
+            "email": "kRoberts@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Kathryn",
+            "familyName": "Roberts",
+            "middleName": "J",
+            "uri": "http://ex.com/vivo/name/941ABBEDA909A62CB68F1687AECE31D19ABFF691"
+        },
+        "uri": "http://ex.com/vivo/613870d1/individual"
+    },
+    "netID": "kRoberts",
+    "label": "Roberts, Kathryn J.",
+    "uri": "http://ex.com/vivo/613870d1",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/613870d1",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/613870d1/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/613870d1/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/613870d1/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/85128F936757F100556397D5B280454E90F2B264",
+            "email": "jasenMaldonado@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Jasen",
+            "familyName": "Maldonado",
+            "middleName": "J",
+            "uri": "http://ex.com/vivo/name/46350CE21EAE94FB038CAD8B108055DE306C9750"
+        },
+        "uri": "http://ex.com/vivo/980e771d/individual"
+    },
+    "netID": "jasenMaldonado",
+    "label": "Maldonado, Jasen J.",
+    "uri": "http://ex.com/vivo/980e771d",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/980e771d",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/980e771d/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/980e771d/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/980e771d/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/978668EE12FEB3A89DEEB644B4776FCC30ED84A8",
+            "email": "Sahrana20@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Krishan",
+            "familyName": "Sahrana",
+            "middleName": "C",
+            "uri": "http://ex.com/vivo/name/8A2E89460D3F2986D94C421BC19FEE2FA153157B"
+        },
+        "uri": "http://ex.com/vivo/ea52a51f/individual"
+    },
+    "netID": "Sahrana20",
+    "label": "Sahrana, Krishan C.",
+    "uri": "http://ex.com/vivo/ea52a51f",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Visiting Associate Professor",
+        "relates": "http://ex.com/vivo/ea52a51f",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ea52a51f/associate_professor_visiting/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ea52a51f/associate_professor_visiting/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Visiting Associate Professor",
+        "uri": "http://ex.com/vivo/postion/ea52a51f/associate_professor_visiting"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/C7E4EA2A48CB6E3964CCF65DE1DE71C29C9AB8FE",
+            "email": "g-Gurry@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Guy",
+            "familyName": "Gurry",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/CFA16C99FD92707585BD9C8BD05E287691052F8E"
+        },
+        "uri": "http://ex.com/vivo/0bcb050f/individual"
+    },
+    "netID": "g-Gurry",
+    "label": "Gurry, Guy L.",
+    "uri": "http://ex.com/vivo/0bcb050f",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/0bcb050f",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/0bcb050f/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/0bcb050f/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/0bcb050f/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/CBF0F5E20D3F23A762FC939005EA8FB07BA1B6E7",
+            "email": "mohamed-t-Rahman@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Mohamed",
+            "familyName": "Rahman",
+            "middleName": "T",
+            "uri": "http://ex.com/vivo/name/70F1EAF95790A368A1C76737EC71DF9290E5A5E9"
+        },
+        "uri": "http://ex.com/vivo/3c8aa927/individual"
+    },
+    "netID": "mohamed-t-Rahman",
+    "label": "Rahman, Mohamed T.",
+    "uri": "http://ex.com/vivo/3c8aa927",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Assistant Professor",
+        "relates": "http://ex.com/vivo/3c8aa927",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/3c8aa927/assistant_clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/3c8aa927/assistant_clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/3c8aa927/assistant_clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/7D3123A5EE8357B6BCFEA69B2EA1E50C9EADDC7D",
+            "email": "rDahl@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Ronald",
+            "familyName": "Dahl",
+            "middleName": "A",
+            "uri": "http://ex.com/vivo/name/A2C9F35872A2411CEFA8D664EC0C14EDD0A49681"
+        },
+        "uri": "http://ex.com/vivo/e4fec57c/individual"
+    },
+    "netID": "rDahl",
+    "label": "Dahl, Ronald A.",
+    "uri": "http://ex.com/vivo/e4fec57c",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/e4fec57c",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e4fec57c/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e4fec57c/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/e4fec57c/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/4CDBB4D508AED7DF6A0DA3625EABDC495C3B1D24",
+            "email": "yeran.Sulik@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Yeran",
+            "familyName": "Sulik",
+            "middleName": "M",
+            "uri": "http://ex.com/vivo/name/368657D998E654DD1E5B6DAA25D91EAE222CE8C0"
+        },
+        "uri": "http://ex.com/vivo/f9f641f8/individual"
+    },
+    "netID": "yeran.Sulik",
+    "label": "Sulik, Yeran M.",
+    "uri": "http://ex.com/vivo/f9f641f8",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/f9f641f8",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f9f641f8/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f9f641f8/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/f9f641f8/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/B81B16091C392DE90CA36FC7876D54D4B891D8BB",
+            "email": "trobert@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Tatyana",
+            "familyName": "Roberts",
+            "uri": "http://ex.com/vivo/name/702451C23A310A83C6A613EA03C31F90AAD0E454"
+        },
+        "uri": "http://ex.com/vivo/de1f2aed/individual"
+    },
+    "netID": "trobert",
+    "label": "Roberts, Tatyana",
+    "uri": "http://ex.com/vivo/de1f2aed",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Associate Professor",
+        "relates": "http://ex.com/vivo/de1f2aed",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/de1f2aed/associate_clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/de1f2aed/associate_clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Associate Professor",
+        "uri": "http://ex.com/vivo/postion/de1f2aed/associate_clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/BC5C0F454B82A9BAA08EF8D57E5005BF7FF89EB4",
+            "email": "jmWarren@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Jonathan",
+            "familyName": "Warren",
+            "uri": "http://ex.com/vivo/name/9ED3BBDF0EA49C1517745EB91DA81F3481092C68"
+        },
+        "uri": "http://ex.com/vivo/6edf97c6/individual"
+    },
+    "netID": "jmWarren",
+    "label": "Warren, Jonathan",
+    "uri": "http://ex.com/vivo/6edf97c6",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/6edf97c6",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6edf97c6/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6edf97c6/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/6edf97c6/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/0E47A33B9ECA3074E70A91B41B5E1C93A2142CEB",
+            "email": "mJackson@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Michael",
+            "familyName": "Jackson",
+            "middleName": "A",
+            "uri": "http://ex.com/vivo/name/6A9BD75BD5873F9FEA32011FA1B0E76EEE2F8403"
+        },
+        "uri": "http://ex.com/vivo/d6f8c320/individual"
+    },
+    "netID": "mJackson",
+    "label": "Jackson, Michael A.",
+    "uri": "http://ex.com/vivo/d6f8c320",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/d6f8c320",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d6f8c320/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d6f8c320/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/d6f8c320/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/2D4898703BB89D05F0FF19925872C701BD5EA7C3",
+            "email": "apederss@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Adam",
+            "familyName": "Pederssen",
+            "middleName": "P",
+            "uri": "http://ex.com/vivo/name/7AC7B936736F3F07D8CD2D3B2964CA16463E0807"
+        },
+        "uri": "http://ex.com/vivo/c7f9a04d/individual"
+    },
+    "netID": "apederss",
+    "label": "Pederssen, Adam P.",
+    "uri": "http://ex.com/vivo/c7f9a04d",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Assistant Professor",
+        "relates": "http://ex.com/vivo/c7f9a04d",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-15T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c7f9a04d/assistant_clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-15T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c7f9a04d/assistant_clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/c7f9a04d/assistant_clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/C8D45089B1CB92C93A43899FEED619D05D6D43D2",
+            "email": "hagenwong@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Hwagyun",
+            "familyName": "wong",
+            "uri": "http://ex.com/vivo/name/FEEA17E30C30C6F3148EF197AA080905BDBA5C07"
+        },
+        "uri": "http://ex.com/vivo/0a2d481f/individual"
+    },
+    "netID": "hagenwong",
+    "label": "wong, Hwagyun",
+    "uri": "http://ex.com/vivo/0a2d481f",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/0a2d481f",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-16T00:00:00",
+            "uri": "http://ex.com/vivo/postion/0a2d481f/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-16T00:00:00",
+            "uri": "http://ex.com/vivo/postion/0a2d481f/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/0a2d481f/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/01641ECBA373262B00088D59348C414C685380D2",
+            "email": "johannaha@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Johanna",
+            "familyName": "Hahn",
+            "middleName": "E",
+            "uri": "http://ex.com/vivo/name/BEDC0A3418E3AACE77FF8597C36992CE8E8ECCA5"
+        },
+        "uri": "http://ex.com/vivo/fed03dd1/individual"
+    },
+    "netID": "johannaha",
+    "label": "Hahn, Johanna E.",
+    "uri": "http://ex.com/vivo/fed03dd1",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Instructional Assistant Professor",
+        "relates": "http://ex.com/vivo/fed03dd1",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-17T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fed03dd1/assistant_instructional_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-17T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fed03dd1/assistant_instructional_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Instructional Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/fed03dd1/assistant_instructional_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/DD0DBD19622C588A58D6ACBF2F6B610235585B09",
+            "email": "j-Preston@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "John",
+            "familyName": "Preston",
+            "middleName": "W",
+            "uri": "http://ex.com/vivo/name/BAF68D2734821454A476A5D5525A94E9FD1AF150"
+        },
+        "uri": "http://ex.com/vivo/d2caf464/individual"
+    },
+    "netID": "j-Preston",
+    "label": "Preston, John W.",
+    "uri": "http://ex.com/vivo/d2caf464",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/d2caf464",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-18T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d2caf464/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-18T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d2caf464/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/d2caf464/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/4640CE9C448C979A1D139780B74F46765871D5B3",
+            "email": "carmenj@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Carmen",
+            "familyName": "Juarez",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/5785D2E9CAB8670CE06DFF2E84117C665A17459B"
+        },
+        "uri": "http://ex.com/vivo/786fc0f3/individual"
+    },
+    "netID": "carmenj",
+    "label": "Juarez, Carmen L.",
+    "uri": "http://ex.com/vivo/786fc0f3",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/786fc0f3",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-19T00:00:00",
+            "uri": "http://ex.com/vivo/postion/786fc0f3/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-19T00:00:00",
+            "uri": "http://ex.com/vivo/postion/786fc0f3/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/786fc0f3/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/E020829BBE1012892A35AF7C303C7C0E2443BCC6",
+            "email": "m-Posnik@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Michael",
+            "familyName": "Posnik",
+            "middleName": "P",
+            "uri": "http://ex.com/vivo/name/A465AB19E353F4CBBEB17B3B690ACADB61E3E413"
+        },
+        "uri": "http://ex.com/vivo/9ed54600/individual"
+    },
+    "netID": "m-Posnik",
+    "label": "Posnik, Michael P.",
+    "uri": "http://ex.com/vivo/9ed54600",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/9ed54600",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-20T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9ed54600/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-20T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9ed54600/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/9ed54600/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/17AE1778A573B5F3261E7474D10BF7C8F00B43B8",
+            "email": "gupta@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Akhil",
+            "familyName": "Gupta",
+            "uri": "http://ex.com/vivo/name/032DF0285E3DD3466338CADAF14341670DBFB0DF"
+        },
+        "uri": "http://ex.com/vivo/5e728236/individual"
+    },
+    "netID": "gupta",
+    "label": "Gupta, Akhil",
+    "uri": "http://ex.com/vivo/5e728236",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/5e728236",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-21T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5e728236/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-21T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5e728236/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/5e728236/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/AE9A33BFE2C04B78DFDBB7F3F92F50652EA59A94",
+            "email": "llMonroe@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Lori",
+            "familyName": "Monroe",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/F9451E8E8F1746685536FFE75579971345CB70CF"
+        },
+        "uri": "http://ex.com/vivo/f53479a0/individual"
+    },
+    "netID": "llMonroe",
+    "label": "Monroe, Lori L.",
+    "uri": "http://ex.com/vivo/f53479a0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/f53479a0",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-22T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f53479a0/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-22T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f53479a0/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/f53479a0/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/3AB87E064E4BAC9DE605B8396B20173911461645",
+            "email": "tanya.Pane@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Tanya",
+            "familyName": "Pane",
+            "uri": "http://ex.com/vivo/name/A6FBE4966F6C17B572920E7D3AD84B4B4BB929E6"
+        },
+        "uri": "http://ex.com/vivo/6df86023/individual"
+    },
+    "netID": "tanya.Pane",
+    "label": "Pane, Tanya",
+    "uri": "http://ex.com/vivo/6df86023",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/6df86023",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-23T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6df86023/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-23T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6df86023/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/6df86023/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/80A355F86FF22A5062FA718B7426C1F6E1C5D671",
+            "email": "p-Strauss@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Peter",
+            "familyName": "Strauss",
+            "middleName": "F",
+            "uri": "http://ex.com/vivo/name/E9695198D5B01B73C3D0AD2D225BDEB62759FCFE"
+        },
+        "uri": "http://ex.com/vivo/9c75f491/individual"
+    },
+    "netID": "p-Strauss",
+    "label": "Strauss, Peter F.",
+    "uri": "http://ex.com/vivo/9c75f491",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/9c75f491",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-24T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9c75f491/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-24T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9c75f491/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/9c75f491/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/401FA9D730AA4AE1167A0ACFE6DDDED5479840E1",
+            "email": "bobStagner@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robert",
+            "familyName": "Stagner",
+            "middleName": "O",
+            "uri": "http://ex.com/vivo/name/93345E2EC056F124F2E9290CED7129558408F890"
+        },
+        "uri": "http://ex.com/vivo/7f4e9eb4/individual"
+    },
+    "netID": "bobStagner",
+    "label": "Stagner, Robert O.",
+    "uri": "http://ex.com/vivo/7f4e9eb4",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/7f4e9eb4",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-25T00:00:00",
+            "uri": "http://ex.com/vivo/postion/7f4e9eb4/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-25T00:00:00",
+            "uri": "http://ex.com/vivo/postion/7f4e9eb4/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/7f4e9eb4/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/0400512F4CE45707D95DD7C5E8CF779F4520C72B",
+            "email": "lijenWuo@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Li-Jen",
+            "familyName": "Wuo",
+            "uri": "http://ex.com/vivo/name/46DBBFC1AEBDA1F5550047D2A4936E7CDC5EE805"
+        },
+        "uri": "http://ex.com/vivo/ec810b24/individual"
+    },
+    "netID": "lijenWuo",
+    "label": "Wuo, Li-Jen",
+    "uri": "http://ex.com/vivo/ec810b24",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/ec810b24",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-26T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ec810b24/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-26T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ec810b24/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/ec810b24/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/8D17D1BEFE7AD526E5A8D82408FA7731AAADD44D",
+            "email": "shaganBirkke@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Shanna",
+            "familyName": "Birkke",
+            "middleName": "H",
+            "uri": "http://ex.com/vivo/name/1BAA3D4699D9B4A54E4AC9FF3ED4AAE86F1C18D6"
+        },
+        "uri": "http://ex.com/vivo/b2c12cd3/individual"
+    },
+    "netID": "shaganBirkke",
+    "label": "Birkke, Shanna H.",
+    "uri": "http://ex.com/vivo/b2c12cd3",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/b2c12cd3",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-27T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b2c12cd3/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-27T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b2c12cd3/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/b2c12cd3/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/0A00F8281DA6656B009BABAAED3416A57B77202B",
+            "email": "yTimoshenko@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Yaroslav",
+            "familyName": "Timoshenko",
+            "uri": "http://ex.com/vivo/name/8197B230014E78A4C5E4FEF1733B5A773232259C"
+        },
+        "uri": "http://ex.com/vivo/bd6831b8/individual"
+    },
+    "netID": "yTimoshenko",
+    "label": "Timoshenko, Yaroslav",
+    "uri": "http://ex.com/vivo/bd6831b8",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/bd6831b8",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-28T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bd6831b8/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-28T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bd6831b8/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/bd6831b8/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/3B3AE6DD9096E8A0E5ECBEC39EC94EBCB5845861",
+            "email": "Wang@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Lei",
+            "familyName": "Wang",
+            "uri": "http://ex.com/vivo/name/0A98ADC339E05540259CB55D4BBDC28BF4CD01DF"
+        },
+        "uri": "http://ex.com/vivo/e3bd8752/individual"
+    },
+    "netID": "Wang",
+    "label": "Wang, Lei",
+    "uri": "http://ex.com/vivo/e3bd8752",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/e3bd8752",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-29T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e3bd8752/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-29T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e3bd8752/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/e3bd8752/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/DBAA6149A5EBFD95AF42BAB7D8125804AA3AA1AE",
+            "email": "jwoodey@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Joanna",
+            "familyName": "Woodey",
+            "middleName": "R",
+            "uri": "http://ex.com/vivo/name/C5B3ACC4485F4E512D5EC4B42D6EDC50AEBAFFC0"
+        },
+        "uri": "http://ex.com/vivo/4ff5edcb/individual"
+    },
+    "netID": "jwoodey",
+    "label": "Woodey, Joanna R.",
+    "uri": "http://ex.com/vivo/4ff5edcb",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Senior Lecturer",
+        "relates": "http://ex.com/vivo/4ff5edcb",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-30T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4ff5edcb/lecturer_senior/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-30T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4ff5edcb/lecturer_senior/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Senior Lecturer",
+        "uri": "http://ex.com/vivo/postion/4ff5edcb/lecturer_senior"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/87F7F483E85B4FB7AAE43101FE6CC50F35FD5E70",
+            "email": "robin-m-Reiner@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robin",
+            "familyName": "Reiner",
+            "middleName": "M",
+            "uri": "http://ex.com/vivo/name/95D3287D2DCA3A752A1C6E1A5F52E4C27CFD501F"
+        },
+        "uri": "http://ex.com/vivo/8bf8898a/individual"
+    },
+    "netID": "robin-m-Reiner",
+    "label": "Reiner, Robin M.",
+    "uri": "http://ex.com/vivo/8bf8898a",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/8bf8898a",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-10-31T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8bf8898a/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-01-31T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8bf8898a/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/8bf8898a/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/3B0B6257B21A42D570B137F261581683E60BFEC0",
+            "email": "Muchkin@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robert",
+            "familyName": "Muchkin",
+            "middleName": "S",
+            "uri": "http://ex.com/vivo/name/04898E1498C9816D6B2CB168A9B29D9B78BAFE56"
+        },
+        "uri": "http://ex.com/vivo/ce238e6e/individual"
+    },
+    "netID": "Muchkin",
+    "label": "Muchkin, Robert S.",
+    "uri": "http://ex.com/vivo/ce238e6e",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Instructional Assistant Professor",
+        "relates": "http://ex.com/vivo/ce238e6e",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ce238e6e/assistant_instructional_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ce238e6e/assistant_instructional_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Instructional Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/ce238e6e/assistant_instructional_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/8AABF40D35AD16AB8ECE4DEB18341391F7F5D0E4",
+            "email": "r-Wurst@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Ralph",
+            "familyName": "Wurst",
+            "middleName": "A",
+            "uri": "http://ex.com/vivo/name/1069E3FD71B3AD58408D66A7F89F1553322CE668"
+        },
+        "uri": "http://ex.com/vivo/4.33E+12/individual"
+    },
+    "netID": "r-Wurst",
+    "label": "Wurst, Ralph A.",
+    "uri": "http://ex.com/vivo/4.33E+12",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/4.33E+12",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4.33E+12/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4.33E+12/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/4.33E+12/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/D14D385EB6DAA8296AA62918AF3BE469521B6566",
+            "email": "nessoli@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Liesl",
+            "familyName": "Nesson",
+            "middleName": "S",
+            "uri": "http://ex.com/vivo/name/8178606BE5EAAD0283B18810F7FE5D7C93D820EA"
+        },
+        "uri": "http://ex.com/vivo/f2751f8b/individual"
+    },
+    "netID": "nessoli",
+    "label": "Nesson, Liesl S.",
+    "uri": "http://ex.com/vivo/f2751f8b",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Senior Lecturer",
+        "relates": "http://ex.com/vivo/f2751f8b",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f2751f8b/lecturer_senior/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f2751f8b/lecturer_senior/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Senior Lecturer",
+        "uri": "http://ex.com/vivo/postion/f2751f8b/lecturer_senior"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/10FDB66B1E51EC27E4AD4892B25716F0D1E15125",
+            "email": "m-Burbanks@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Micky",
+            "familyName": "Burbanks",
+            "middleName": "D",
+            "uri": "http://ex.com/vivo/name/1A01BECE438BBBF51950597B1F0241E2FCF840AD"
+        },
+        "uri": "http://ex.com/vivo/40f09614/individual"
+    },
+    "netID": "m-Burbanks",
+    "label": "Burbanks, Micky D.",
+    "uri": "http://ex.com/vivo/40f09614",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/40f09614",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/40f09614/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/40f09614/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/40f09614/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/68004C55DCEF7A1883AEEF82CBD96A196976E1FF",
+            "email": "aYuang@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Anxiao",
+            "familyName": "Yuang",
+            "uri": "http://ex.com/vivo/name/3A06C9372217A3DC08761FCFD76986502F4D1A6F"
+        },
+        "uri": "http://ex.com/vivo/8da37bea/individual"
+    },
+    "netID": "aYuang",
+    "label": "Yuang, Anxiao",
+    "uri": "http://ex.com/vivo/8da37bea",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/8da37bea",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8da37bea/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8da37bea/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/8da37bea/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/1D3EE1667F1D14CB5C624E161491196A7026A85F",
+            "email": "Ditross@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Joseph",
+            "familyName": "Ditross",
+            "middleName": "J",
+            "uri": "http://ex.com/vivo/name/A69973E683152CEE6B3B5479B66A6BDD0B3D4404"
+        },
+        "uri": "http://ex.com/vivo/262ead89/individual"
+    },
+    "netID": "joseph.Ditross",
+    "label": "Ditross, Joseph J.",
+    "uri": "http://ex.com/vivo/262ead89",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/262ead89",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/262ead89/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/262ead89/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/262ead89/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/DC3285C29D0D4B047C9FB398A40654902183CF01",
+            "email": "andreas-Necker@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Andreas",
+            "familyName": "Necker",
+            "uri": "http://ex.com/vivo/name/0DB432800A32E0A32D26B86C50186B3A3847F182"
+        },
+        "uri": "http://ex.com/vivo/543231b1/individual"
+    },
+    "netID": "andreas-Necker",
+    "label": "Necker, Andreas",
+    "uri": "http://ex.com/vivo/543231b1",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/543231b1",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/543231b1/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/543231b1/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/543231b1/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/2443E2EFFD828262E50F457E82E58FCD11FE1CFB",
+            "email": "jamesdAbbott@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "James",
+            "familyName": "Abbott",
+            "middleName": "D",
+            "uri": "http://ex.com/vivo/name/B39D93A03557B393E7E78B5E1A8ECAB11AACD53D"
+        },
+        "uri": "http://ex.com/vivo/bf813378/individual"
+    },
+    "netID": "jamesdAbbott",
+    "label": "Abbott, James D.",
+    "uri": "http://ex.com/vivo/bf813378",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/bf813378",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bf813378/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bf813378/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/bf813378/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/5EF02CCED059DDC2286B0A522821BD80107528AC",
+            "email": "cGarsson@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Charles",
+            "familyName": "Garsson",
+            "middleName": "W",
+            "uri": "http://ex.com/vivo/name/0BB94AA3E2C7AD96491EC31B0917CFEDC559D58E"
+        },
+        "uri": "http://ex.com/vivo/84ce7aef/individual"
+    },
+    "netID": "cGarsson",
+    "label": "Garsson, Charles W.",
+    "uri": "http://ex.com/vivo/84ce7aef",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/84ce7aef",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/84ce7aef/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/84ce7aef/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/84ce7aef/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/FA197CC42B8BEA320244B813E219A1FCCD95F624",
+            "email": "zetinos@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Zenon",
+            "familyName": "Zetinos",
+            "uri": "http://ex.com/vivo/name/F08DBA854A9CAC00ED2C806849B198DBB1C20589"
+        },
+        "uri": "http://ex.com/vivo/42be1339/individual"
+    },
+    "netID": "zmc",
+    "label": "Zetinos, Zenon",
+    "uri": "http://ex.com/vivo/42be1339",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/42be1339",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/42be1339/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/42be1339/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/42be1339/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/52B0EB21ECECE54C4303EACA8EEE394781C8446E",
+            "email": "tjBrandon@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Timothy",
+            "familyName": "Brandon",
+            "middleName": "J",
+            "uri": "http://ex.com/vivo/name/ACC9E9FF29ED59B402719EE45E7D7BBD58772BAF"
+        },
+        "uri": "http://ex.com/vivo/ca61ede1/individual"
+    },
+    "netID": "tjBrandon",
+    "label": "Brandon, Timothy J.",
+    "uri": "http://ex.com/vivo/ca61ede1",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/ca61ede1",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ca61ede1/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ca61ede1/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/ca61ede1/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/A91951E4DA2F5984292B2E78F71E54AA66B32C31",
+            "email": "belindaBraggs@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Belinda",
+            "familyName": "Braggs",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/06052BE69C479BB010C1A4AD8D8C940F5451C06A"
+        },
+        "uri": "http://ex.com/vivo/e7ee497b/individual"
+    },
+    "netID": "belindaBraggs",
+    "label": "Braggs, Belinda L.",
+    "uri": "http://ex.com/vivo/e7ee497b",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/e7ee497b",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e7ee497b/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e7ee497b/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/e7ee497b/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/FBFA4A740D75939D8FE6BEA0A5288336D7B6B8A4",
+            "email": "Groass@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Harold",
+            "familyName": "Groass",
+            "middleName": "P",
+            "uri": "http://ex.com/vivo/name/0E191AE9C04699560F034E9E9C9D8DD89FFEA44C"
+        },
+        "uri": "http://ex.com/vivo/7f8372f3/individual"
+    },
+    "netID": "Groass",
+    "label": "Groass, Harold P.",
+    "uri": "http://ex.com/vivo/7f8372f3",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/7f8372f3",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/7f8372f3/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/7f8372f3/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/7f8372f3/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/77108B52830C5DCEC656FC9841ABAB118D46E07E",
+            "email": "gwMonroe@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Georgianne",
+            "familyName": "Monroe",
+            "middleName": "W",
+            "uri": "http://ex.com/vivo/name/E958111277D231FDA867DCDE979679629CA4567A"
+        },
+        "uri": "http://ex.com/vivo/8.57E+08/individual"
+    },
+    "netID": "gwMonroe",
+    "label": "Monroe, Georgianne W.",
+    "uri": "http://ex.com/vivo/8.57E+08",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/8.57E+08",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8.57E+08/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8.57E+08/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/8.57E+08/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/13C2920E01A17AE2EEE89CAA0304927B36F746A9",
+            "email": "rChaparo@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robert",
+            "familyName": "Chaparo",
+            "middleName": "M",
+            "uri": "http://ex.com/vivo/name/991E4700F217BA7515CF325411081123A886EEFD"
+        },
+        "uri": "http://ex.com/vivo/c0f341af/individual"
+    },
+    "netID": "rChaparo",
+    "label": "Chaparo, Robert M.",
+    "uri": "http://ex.com/vivo/c0f341af",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/c0f341af",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-15T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c0f341af/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-15T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c0f341af/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/c0f341af/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/55775F47624E76F3A9426307DA05A7CBF19494FE",
+            "email": "Coghi@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Behbood",
+            "familyName": "Coghi",
+            "middleName": "B",
+            "uri": "http://ex.com/vivo/name/8B29B17F587574C671FE9C959AF3B7B93585CB86"
+        },
+        "uri": "http://ex.com/vivo/fd023ba6/individual"
+    },
+    "netID": "Coghi",
+    "label": "Coghi, Behbood B.",
+    "uri": "http://ex.com/vivo/fd023ba6",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/fd023ba6",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-16T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fd023ba6/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-16T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fd023ba6/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/fd023ba6/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/366B15F5545FEFE48FE92B732ECB6C3C20EB41A0",
+            "email": "kmMonroe@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Kevin",
+            "familyName": "Monroe",
+            "middleName": "M",
+            "uri": "http://ex.com/vivo/name/680AD6C5E778BF0327D9D4BFBB35F9AF97188F0B"
+        },
+        "uri": "http://ex.com/vivo/7a7aa175/individual"
+    },
+    "netID": "kmMonroe",
+    "label": "Monroe, Kevin M.",
+    "uri": "http://ex.com/vivo/7a7aa175",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Executive Professor",
+        "relates": "http://ex.com/vivo/7a7aa175",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-17T00:00:00",
+            "uri": "http://ex.com/vivo/postion/7a7aa175/executive_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-17T00:00:00",
+            "uri": "http://ex.com/vivo/postion/7a7aa175/executive_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Executive Professor",
+        "uri": "http://ex.com/vivo/postion/7a7aa175/executive_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/A724D984E04C80CC3B64FCF15AA0CB1BB7DD8FD9",
+            "email": "dha@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Dustin",
+            "familyName": "Hauer",
+            "middleName": "T",
+            "uri": "http://ex.com/vivo/name/BA423C5FFFA9130D6E32689992EFA61BA9825B16"
+        },
+        "uri": "http://ex.com/vivo/97af54fb/individual"
+    },
+    "netID": "dha",
+    "label": "Hauer, Dustin T.",
+    "uri": "http://ex.com/vivo/97af54fb",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/97af54fb",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-18T00:00:00",
+            "uri": "http://ex.com/vivo/postion/97af54fb/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-18T00:00:00",
+            "uri": "http://ex.com/vivo/postion/97af54fb/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/97af54fb/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/697C25F6461A31F2F0AE64B18B0A50C721BA43A8",
+            "email": "jeTado@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "John",
+            "familyName": "Tado",
+            "middleName": "E",
+            "uri": "http://ex.com/vivo/name/30CCB808A92820CBADEA4ED4F946B24A6324383C"
+        },
+        "uri": "http://ex.com/vivo/8422a439/individual"
+    },
+    "netID": "jeTado",
+    "label": "Tado, John E.",
+    "uri": "http://ex.com/vivo/8422a439",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/8422a439",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-19T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8422a439/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-19T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8422a439/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/8422a439/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/B0CA20A72DCF7309349EE44E1A0F91D9B54223A8",
+            "email": "Rammstein@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Heather",
+            "familyName": "Rammstein",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/921C7BD4F16EABE9FF745C1B40631625239A2A13"
+        },
+        "uri": "http://ex.com/vivo/883c4cb7/individual"
+    },
+    "netID": "Rammstein",
+    "label": "Rammstein, Heather L.",
+    "uri": "http://ex.com/vivo/883c4cb7",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Senior Lecturer",
+        "relates": "http://ex.com/vivo/883c4cb7",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-20T00:00:00",
+            "uri": "http://ex.com/vivo/postion/883c4cb7/lecturer_senior/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-20T00:00:00",
+            "uri": "http://ex.com/vivo/postion/883c4cb7/lecturer_senior/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Senior Lecturer",
+        "uri": "http://ex.com/vivo/postion/883c4cb7/lecturer_senior"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/7230877775FAB19E18B7B30A9371E3B3E6C141EC",
+            "email": "august@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Wanda",
+            "familyName": "Bloomberg",
+            "uri": "http://ex.com/vivo/name/B92A8F82E7C9466B9CE7D13C645ACFC287145EF1"
+        },
+        "uri": "http://ex.com/vivo/430cacbc/individual"
+    },
+    "netID": "august",
+    "label": "Bloomberg, Wanda",
+    "uri": "http://ex.com/vivo/430cacbc",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Adjunct Assistant Professor",
+        "relates": "http://ex.com/vivo/430cacbc",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-21T00:00:00",
+            "uri": "http://ex.com/vivo/postion/430cacbc/adjunct_assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-21T00:00:00",
+            "uri": "http://ex.com/vivo/postion/430cacbc/adjunct_assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Adjunct Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/430cacbc/adjunct_assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/61106FFBBAB79C02E82F31E006F1C2E46CA3E882",
+            "email": "s-Sane@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Stephen",
+            "familyName": "Sane",
+            "middleName": "H",
+            "uri": "http://ex.com/vivo/name/D4DC306A841BA85BF97C90450ADBC8619BDD067F"
+        },
+        "uri": "http://ex.com/vivo/b20fdbd9/individual"
+    },
+    "netID": "s-Sane",
+    "label": "Sane, Stephen H.",
+    "uri": "http://ex.com/vivo/b20fdbd9",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Distinguished Professor",
+        "relates": "http://ex.com/vivo/b20fdbd9",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-22T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b20fdbd9/distinguished_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-22T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b20fdbd9/distinguished_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Distinguished Professor",
+        "uri": "http://ex.com/vivo/postion/b20fdbd9/distinguished_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Kati",
+            "familyName": "Grass",
+            "middleName": "P",
+            "uri": "http://ex.com/vivo/name/07929796F6A94BE03BF9239E0F5E1CD9AE8AF6A5"
+        },
+        "uri": "http://ex.com/vivo/c500baf1/individual"
+    },
+    "netID": "blazenburn",
+    "label": "Grass, Kati P.",
+    "uri": "http://ex.com/vivo/c500baf1",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Veterinary Resident Instructor",
+        "relates": "http://ex.com/vivo/c500baf1",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-23T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c500baf1/instructor_resident_veterinary/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-23T00:00:00",
+            "uri": "http://ex.com/vivo/postion/c500baf1/instructor_resident_veterinary/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Veterinary Resident Instructor",
+        "uri": "http://ex.com/vivo/postion/c500baf1/instructor_resident_veterinary"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/D2C074159B5692251E5094D99612C75E12F4A150",
+            "email": "aCarpou@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Andreas",
+            "familyName": "Carpou",
+            "middleName": "A",
+            "uri": "http://ex.com/vivo/name/73F7D216EF4D39C3E26D49DD7AB7669AFAD22341"
+        },
+        "uri": "http://ex.com/vivo/9c4dca0b/individual"
+    },
+    "netID": "aCarpou",
+    "label": "Carpou, Andreas A.",
+    "uri": "http://ex.com/vivo/9c4dca0b",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor and Head",
+        "relates": "http://ex.com/vivo/9c4dca0b",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-24T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9c4dca0b/and_head_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-24T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9c4dca0b/and_head_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor and Head",
+        "uri": "http://ex.com/vivo/postion/9c4dca0b/and_head_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/C2C7007D66DED23522C9C8F2256A35255C95D3F3",
+            "email": "Ryak@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Larry",
+            "familyName": "Ryak",
+            "middleName": "W",
+            "uri": "http://ex.com/vivo/name/9949A0AA149C3C6080707CB5E19EB1D52A783933"
+        },
+        "uri": "http://ex.com/vivo/9a25a80b/individual"
+    },
+    "netID": "Ryak",
+    "label": "Ryak, Larry W.",
+    "uri": "http://ex.com/vivo/9a25a80b",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/9a25a80b",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-25T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9a25a80b/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-25T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9a25a80b/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/9a25a80b/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/509DC90F8BE4C8041124582ECBEDEC3B47F05AA6",
+            "email": "Hanisg@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Salem",
+            "familyName": "Hani",
+            "middleName": "G",
+            "uri": "http://ex.com/vivo/name/21FA7C3D510B49F631008F82CBC65C64C3E92443"
+        },
+        "uri": "http://ex.com/vivo/1921874d/individual"
+    },
+    "netID": "Hanisg",
+    "label": "Hani, Salem G.",
+    "uri": "http://ex.com/vivo/1921874d",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/1921874d",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-26T00:00:00",
+            "uri": "http://ex.com/vivo/postion/1921874d/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-26T00:00:00",
+            "uri": "http://ex.com/vivo/postion/1921874d/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/1921874d/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/5F3F4AFEA8BF2358F2280C39C50FD8C1562DE4F7",
+            "email": "kHartfield@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Lloyd",
+            "familyName": "Hartfield",
+            "middleName": "K",
+            "uri": "http://ex.com/vivo/name/C69EB09892D9B1A466280F5EFE7DEA932AFEB101"
+        },
+        "uri": "http://ex.com/vivo/274f2d27/individual"
+    },
+    "netID": "kHartfield",
+    "label": "Hartfield, Lloyd K.",
+    "uri": "http://ex.com/vivo/274f2d27",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/274f2d27",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-27T00:00:00",
+            "uri": "http://ex.com/vivo/postion/274f2d27/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-27T00:00:00",
+            "uri": "http://ex.com/vivo/postion/274f2d27/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/274f2d27/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/8DEB3D38C06010F6FCA3C3EDD100A86A6E85433D",
+            "email": "d-Bilbaos@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "David",
+            "familyName": "Bilbaos",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/ED0ADF709EE3CB5AD30B195660BA9A9FBE8AC4BD"
+        },
+        "uri": "http://ex.com/vivo/cc1476d6/individual"
+    },
+    "netID": "d-Bilbaos",
+    "label": "Bilbaos, David L.",
+    "uri": "http://ex.com/vivo/cc1476d6",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/cc1476d6",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-28T00:00:00",
+            "uri": "http://ex.com/vivo/postion/cc1476d6/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-02-28T00:00:00",
+            "uri": "http://ex.com/vivo/postion/cc1476d6/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/cc1476d6/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/BA38E7048A9973621F4F6DB806AF5424AC3DC606",
+            "email": "Horty@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robert",
+            "familyName": "Horty",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/E8A492D09BB1D6B96F054C108C1A492557E06199"
+        },
+        "uri": "http://ex.com/vivo/d138d94a/individual"
+    },
+    "netID": "Horty",
+    "label": "Horty, Robert L.",
+    "uri": "http://ex.com/vivo/d138d94a",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/d138d94a",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-29T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d138d94a/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d138d94a/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/d138d94a/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/3DD87897FFD4AFB47ECC1343D1AA06C72099D597",
+            "email": "s.Losh@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Stephen",
+            "familyName": "Losh",
+            "middleName": "B",
+            "uri": "http://ex.com/vivo/name/9870A0CB943831D2700D398C43DDE3B88369F7AD"
+        },
+        "uri": "http://ex.com/vivo/b9098a8e/individual"
+    },
+    "netID": "s.Losh",
+    "label": "Losh, Stephen B.",
+    "uri": "http://ex.com/vivo/b9098a8e",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/b9098a8e",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-11-30T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b9098a8e/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b9098a8e/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/b9098a8e/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/1980E01A34C049949B56CE409A57EEACD676A8E4",
+            "email": "pyang@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Ping",
+            "familyName": "Pyang",
+            "uri": "http://ex.com/vivo/name/BA6363EC00C90F00584990755637AB5C31566DC8"
+        },
+        "uri": "http://ex.com/vivo/a90924e6/individual"
+    },
+    "netID": "pyang",
+    "label": "Pyang, Ping",
+    "uri": "http://ex.com/vivo/a90924e6",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/a90924e6",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/a90924e6/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/a90924e6/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/a90924e6/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/016B3D415A667E8C2A08FF35DF967046AC9C45DE",
+            "email": "bill-Samac@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Bill",
+            "familyName": "Samac",
+            "uri": "http://ex.com/vivo/name/57BB5E7AFF90B674FFD0467E077EE43FFD5DD343"
+        },
+        "uri": "http://ex.com/vivo/6ebab0fa/individual"
+    },
+    "netID": "bill-Samac",
+    "label": "Samac, Bill",
+    "uri": "http://ex.com/vivo/6ebab0fa",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/6ebab0fa",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6ebab0fa/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6ebab0fa/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/6ebab0fa/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/0AAE1DFE99D2DF573A9010F0542CBA6798BA2215",
+            "email": "al-Gowan@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Annie",
+            "familyName": "Gowan",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/DD37D57A33BEADBA42625158A3965384111D6FA3"
+        },
+        "uri": "http://ex.com/vivo/f17715d0/individual"
+    },
+    "netID": "al-Gowan",
+    "label": "Gowan, Annie L.",
+    "uri": "http://ex.com/vivo/f17715d0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/f17715d0",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f17715d0/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f17715d0/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/f17715d0/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/E0CEBB787605F18A087959EDFA5B1C73D8BE6BD4",
+            "email": "wHarter@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Weston",
+            "familyName": "Harter",
+            "middleName": "W",
+            "uri": "http://ex.com/vivo/name/04CE0873FD0A3327A504189E8A39E53C37C6E213"
+        },
+        "uri": "http://ex.com/vivo/90e6f6c0/individual"
+    },
+    "netID": "wHarter",
+    "label": "Harter, Weston W.",
+    "uri": "http://ex.com/vivo/90e6f6c0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/90e6f6c0",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/90e6f6c0/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/90e6f6c0/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/90e6f6c0/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/6C1C31D45F4AB8BDDF8BE686EF8FB76D42F337EC",
+            "email": "rebeccaMcGill@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Rebecca",
+            "familyName": "McGill",
+            "middleName": "E",
+            "uri": "http://ex.com/vivo/name/20E543822681A0B96FF78F45935C388B80DB9614"
+        },
+        "uri": "http://ex.com/vivo/054759c0/individual"
+    },
+    "netID": "rebeccaMcGill",
+    "label": "McGill, Rebecca E.",
+    "uri": "http://ex.com/vivo/054759c0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/054759c0",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/054759c0/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/054759c0/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/054759c0/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/9F8C58F43306321A84D04E51CB8C5803681E97DE",
+            "email": "psLowess@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Patricia",
+            "familyName": "Lowess",
+            "middleName": "S",
+            "uri": "http://ex.com/vivo/name/C6BFE61F05A0DCA2A5BE70BFCFBD1ADA85961DDF"
+        },
+        "uri": "http://ex.com/vivo/18fdb6b4/individual"
+    },
+    "netID": "psLowess",
+    "label": "Lowess, Patricia S.",
+    "uri": "http://ex.com/vivo/18fdb6b4",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Professor",
+        "relates": "http://ex.com/vivo/18fdb6b4",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/18fdb6b4/clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/18fdb6b4/clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Professor",
+        "uri": "http://ex.com/vivo/postion/18fdb6b4/clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/D415C22777C71D37D85F35ECCB19A707A9B85AC6",
+            "email": "wjKinley@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "William",
+            "familyName": "Kinley",
+            "middleName": "J",
+            "uri": "http://ex.com/vivo/name/C19D4E87458E05FD55EB2D93564E5BFB24B44A6B"
+        },
+        "uri": "http://ex.com/vivo/38160486/individual"
+    },
+    "netID": "wjKinley",
+    "label": "Kinley, William J.",
+    "uri": "http://ex.com/vivo/38160486",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Senior Lecturer",
+        "relates": "http://ex.com/vivo/38160486",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/38160486/lecturer_senior/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/38160486/lecturer_senior/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Senior Lecturer",
+        "uri": "http://ex.com/vivo/postion/38160486/lecturer_senior"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/484E1581A3B57549D17910E426E180DEAEE3F3EE",
+            "email": "serry@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Amie",
+            "familyName": "Serry",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/F96A906796D85766CBF108CA1E9DCA577345EA3A"
+        },
+        "uri": "http://ex.com/vivo/9d92ca8b/individual"
+    },
+    "netID": "serry",
+    "label": "Serry, Amie L.",
+    "uri": "http://ex.com/vivo/9d92ca8b",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Lecturer",
+        "relates": "http://ex.com/vivo/9d92ca8b",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9d92ca8b/assistant_lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9d92ca8b/assistant_lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Lecturer",
+        "uri": "http://ex.com/vivo/postion/9d92ca8b/assistant_lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/7DC46066E0DC984C827719C3F3DFDFADA4F4BBF8",
+            "email": "bWinston@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "S",
+            "familyName": "Winston",
+            "middleName": "B",
+            "uri": "http://ex.com/vivo/name/5875968288A0BB3780127DEC920DE8DEF1C50C6F"
+        },
+        "uri": "http://ex.com/vivo/1aedaf52/individual"
+    },
+    "netID": "bWinston",
+    "label": "Winston, S B.",
+    "uri": "http://ex.com/vivo/1aedaf52",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/1aedaf52",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/1aedaf52/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/1aedaf52/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/1aedaf52/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/8FE82C5B80F80576669C2E76C2546D9324ED5B44",
+            "email": "saskias@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Saskia",
+            "familyName": "Szewski",
+            "uri": "http://ex.com/vivo/name/B2E61FE498BD72EA47CF4DA417162FBB75BC180F"
+        },
+        "uri": "http://ex.com/vivo/26f30b82/individual"
+    },
+    "netID": "saskias",
+    "label": "Szewski, Saskia",
+    "uri": "http://ex.com/vivo/26f30b82",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/26f30b82",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/26f30b82/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/26f30b82/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/26f30b82/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/906F3C8D7F1C9E710F1248530BFB43633827C621",
+            "email": "Szewski@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Thomas",
+            "familyName": "Szewski",
+            "middleName": "D",
+            "uri": "http://ex.com/vivo/name/DF1C502586EDDB7059FD06E08C679DA1D8EF311A"
+        },
+        "uri": "http://ex.com/vivo/96285042/individual"
+    },
+    "netID": "Szewski",
+    "label": "Szewski, Thomas D.",
+    "uri": "http://ex.com/vivo/96285042",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/96285042",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/96285042/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/96285042/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/96285042/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/774C5E20A714F4A10127FD0FFDB14D4BF80E4454",
+            "email": "woodly@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Billy",
+            "familyName": "Woodly",
+            "middleName": "D",
+            "uri": "http://ex.com/vivo/name/4F61A79448606F7AA078F19603BA3A741B514734"
+        },
+        "uri": "http://ex.com/vivo/24e3e4e2/individual"
+    },
+    "netID": "woodly",
+    "label": "Woodly, Billy D.",
+    "uri": "http://ex.com/vivo/24e3e4e2",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/24e3e4e2",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/24e3e4e2/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/24e3e4e2/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/24e3e4e2/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/484A812D50A58DC99FCFA8D6CB102CFF3C4F2936",
+            "email": "kPyndap@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Kathrin",
+            "familyName": "Pyndap",
+            "middleName": "A",
+            "uri": "http://ex.com/vivo/name/AC406F2C99BF0DE7CDE892B34A00AEC6729A5A4F"
+        },
+        "uri": "http://ex.com/vivo/3469d15f/individual"
+    },
+    "netID": "kPyndap",
+    "label": "Pyndap, Kathrin A.",
+    "uri": "http://ex.com/vivo/3469d15f",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/3469d15f",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/3469d15f/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-15T00:00:00",
+            "uri": "http://ex.com/vivo/postion/3469d15f/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/3469d15f/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/CC31715DE605B28AD6C10909193115B6354B8077",
+            "email": "lMartin@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Lanny",
+            "familyName": "Martin",
+            "middleName": "R",
+            "uri": "http://ex.com/vivo/name/079056C88A735AB53D153C69F75BDA6F124D4B59"
+        },
+        "uri": "http://ex.com/vivo/d40b0c98/individual"
+    },
+    "netID": "lMartin",
+    "label": "Martin, Lanny R.",
+    "uri": "http://ex.com/vivo/d40b0c98",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Senior Lecturer",
+        "relates": "http://ex.com/vivo/d40b0c98",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d40b0c98/lecturer_senior/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-16T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d40b0c98/lecturer_senior/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Senior Lecturer",
+        "uri": "http://ex.com/vivo/postion/d40b0c98/lecturer_senior"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/13DF7F20935046EAB44CFA4E1B9CC1542A009901",
+            "email": "g-Pappadopulos@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Gregory",
+            "familyName": "Pappadopulos",
+            "middleName": "F",
+            "uri": "http://ex.com/vivo/name/17A3D2C6F7BB937CDDB5FE6DBE5C50D8424E79C3"
+        },
+        "uri": "http://ex.com/vivo/48d141da/individual"
+    },
+    "netID": "g-Pappadopulos",
+    "label": "Pappadopulos, Gregory F.",
+    "uri": "http://ex.com/vivo/48d141da",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/48d141da",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-15T00:00:00",
+            "uri": "http://ex.com/vivo/postion/48d141da/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-17T00:00:00",
+            "uri": "http://ex.com/vivo/postion/48d141da/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/48d141da/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/92E9C7975FDDA05B226DA23556D858E3B0FBBB1D",
+            "email": "Mepal@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Bimal",
+            "familyName": "Mepal",
+            "middleName": "P",
+            "uri": "http://ex.com/vivo/name/3B461B55D1C70356C9E1041AB6E75BAEFF004EE2"
+        },
+        "uri": "http://ex.com/vivo/5677ce1c/individual"
+    },
+    "netID": "Mepal",
+    "label": "Mepal, Bimal P.",
+    "uri": "http://ex.com/vivo/5677ce1c",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/5677ce1c",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-16T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5677ce1c/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-18T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5677ce1c/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/5677ce1c/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/24395DB375DA2FCFC4D40ADBAEACC82C88F8CA58",
+            "email": "sAtckins@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Stephen",
+            "familyName": "Atckins",
+            "middleName": "R",
+            "uri": "http://ex.com/vivo/name/32EDCD2A2E445671A1BDA58922E79293FA366DF1"
+        },
+        "uri": "http://ex.com/vivo/d522fec6/individual"
+    },
+    "netID": "sAtckins",
+    "label": "Atckins, Stephen R.",
+    "uri": "http://ex.com/vivo/d522fec6",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor and Associate Dean",
+        "relates": "http://ex.com/vivo/d522fec6",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-17T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d522fec6/and_associate_dean_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-19T00:00:00",
+            "uri": "http://ex.com/vivo/postion/d522fec6/and_associate_dean_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor and Associate Dean",
+        "uri": "http://ex.com/vivo/postion/d522fec6/and_associate_dean_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/962AE6625B467DE6B893259B402FEDE24007B837",
+            "email": "cNissen@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Colleen",
+            "familyName": "Nissen",
+            "middleName": "V",
+            "uri": "http://ex.com/vivo/name/DC69343746BF7EBDEECF0578D96E1FC5AB6D1ECB"
+        },
+        "uri": "http://ex.com/vivo/9ed36091/individual"
+    },
+    "netID": "cNissen",
+    "label": "Nissen, Colleen V.",
+    "uri": "http://ex.com/vivo/9ed36091",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Veterinary Intern Instructor",
+        "relates": "http://ex.com/vivo/9ed36091",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-18T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9ed36091/instructor_intern_veterinary/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-20T00:00:00",
+            "uri": "http://ex.com/vivo/postion/9ed36091/instructor_intern_veterinary/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Veterinary Intern Instructor",
+        "uri": "http://ex.com/vivo/postion/9ed36091/instructor_intern_veterinary"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/FB1D892397B469614F01B2C3A8F585716DD203BA",
+            "email": "brianBriggs@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Brian",
+            "familyName": "Briggs",
+            "middleName": "C",
+            "uri": "http://ex.com/vivo/name/E5F7613B7D64B29D5CED5A5EEC8BDF898E29AA0A"
+        },
+        "uri": "http://ex.com/vivo/38f0640f/individual"
+    },
+    "netID": "brianBriggs",
+    "label": "Briggs, Brian C.",
+    "uri": "http://ex.com/vivo/38f0640f",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Visiting Lecturer",
+        "relates": "http://ex.com/vivo/38f0640f",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-19T00:00:00",
+            "uri": "http://ex.com/vivo/postion/38f0640f/lecturer_visiting/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-21T00:00:00",
+            "uri": "http://ex.com/vivo/postion/38f0640f/lecturer_visiting/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Visiting Lecturer",
+        "uri": "http://ex.com/vivo/postion/38f0640f/lecturer_visiting"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Gary",
+            "familyName": "Retner",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/9C0F40C8EFD267E70E87791BCD0C922694BD6794"
+        },
+        "uri": "http://ex.com/vivo/0c7c03e3/individual"
+    },
+    "netID": "gRetner",
+    "label": "Retner, Gary L.",
+    "uri": "http://ex.com/vivo/0c7c03e3",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/0c7c03e3",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-20T00:00:00",
+            "uri": "http://ex.com/vivo/postion/0c7c03e3/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-22T00:00:00",
+            "uri": "http://ex.com/vivo/postion/0c7c03e3/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/0c7c03e3/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/908D5D79816883ED783FEFF3D247C92D33877C62",
+            "email": "kyer@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Ellisa",
+            "familyName": "Kyer",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/F87E6AD47EAAAFD6C16A69A1DC4EB6A7E4BC90C0"
+        },
+        "uri": "http://ex.com/vivo/bca92840/individual"
+    },
+    "netID": "kyer",
+    "label": "Kyer, Ellisa L.",
+    "uri": "http://ex.com/vivo/bca92840",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/bca92840",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-21T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bca92840/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-23T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bca92840/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/bca92840/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/E0BA50228E4AE4F85C61704BC86234952F23363E",
+            "email": "jeffrey-m-b-Musner@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Jeffrey",
+            "familyName": "Musner",
+            "middleName": "M",
+            "uri": "http://ex.com/vivo/name/03FB9394EFC676D14CE16610DF5AE325DF5F9260"
+        },
+        "uri": "http://ex.com/vivo/11e9b5be/individual"
+    },
+    "netID": "jeffrey-m-b-Musner",
+    "label": "Musner, Jeffrey M.",
+    "uri": "http://ex.com/vivo/11e9b5be",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Associate Professor",
+        "relates": "http://ex.com/vivo/11e9b5be",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-22T00:00:00",
+            "uri": "http://ex.com/vivo/postion/11e9b5be/associate_clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-24T00:00:00",
+            "uri": "http://ex.com/vivo/postion/11e9b5be/associate_clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Associate Professor",
+        "uri": "http://ex.com/vivo/postion/11e9b5be/associate_clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/2CD416E43B5FF85510E5739C04064842819E15EE",
+            "email": "Pakostina@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Natalia",
+            "familyName": "Pakostina",
+            "middleName": "V",
+            "uri": "http://ex.com/vivo/name/12A43AF6C1A08311A076DD57306BECC3E00CB402"
+        },
+        "uri": "http://ex.com/vivo/194fc3c7/individual"
+    },
+    "netID": "Pakostina",
+    "label": "Pakostina, Natalia V.",
+    "uri": "http://ex.com/vivo/194fc3c7",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/194fc3c7",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-23T00:00:00",
+            "uri": "http://ex.com/vivo/postion/194fc3c7/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-25T00:00:00",
+            "uri": "http://ex.com/vivo/postion/194fc3c7/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/194fc3c7/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/0263787E809E867205D587C34A60883886FD2577",
+            "email": "brunoh@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Linda",
+            "familyName": "Brunoh",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/A542510E6AEB1A09145D794A61EF5CF38FF11050"
+        },
+        "uri": "http://ex.com/vivo/8775e8bc/individual"
+    },
+    "netID": "brunoh",
+    "label": "Brunoh, Linda L.",
+    "uri": "http://ex.com/vivo/8775e8bc",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/8775e8bc",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-24T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8775e8bc/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-26T00:00:00",
+            "uri": "http://ex.com/vivo/postion/8775e8bc/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/8775e8bc/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/86A3F1B8FAE09FD9B281218660DF89D959EAE933",
+            "email": "r-Tenrieth@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robin",
+            "familyName": "Tenrieth",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/3782325ABAF62DB09BB8427E8764B239C2B99BC1"
+        },
+        "uri": "http://ex.com/vivo/ca139916/individual"
+    },
+    "netID": "r-Tenrieth",
+    "label": "Tenrieth, Robin L.",
+    "uri": "http://ex.com/vivo/ca139916",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor and Interim Head",
+        "relates": "http://ex.com/vivo/ca139916",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-25T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ca139916/and_head_interim_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-27T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ca139916/and_head_interim_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor and Interim Head",
+        "uri": "http://ex.com/vivo/postion/ca139916/and_head_interim_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/606560FB90FC0D45B2486161F6B797050830F1EA",
+            "email": "garyBrison@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Gary",
+            "familyName": "Brison",
+            "middleName": "T",
+            "uri": "http://ex.com/vivo/name/76671087B032D32F5B3E6415AEF52B3111D8C70D"
+        },
+        "uri": "http://ex.com/vivo/54317d5b/individual"
+    },
+    "netID": "garyBrison",
+    "label": "Brison, Gary T.",
+    "uri": "http://ex.com/vivo/54317d5b",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/54317d5b",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-26T00:00:00",
+            "uri": "http://ex.com/vivo/postion/54317d5b/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-28T00:00:00",
+            "uri": "http://ex.com/vivo/postion/54317d5b/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/54317d5b/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/7115E9E58D88BFDA0A19ECB6B9FD3C66722F8DEB",
+            "email": "landy@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Ryland",
+            "familyName": "Landy",
+            "middleName": "F",
+            "uri": "http://ex.com/vivo/name/7EF7B5A96218FB699012A94681BAE23F559723A5"
+        },
+        "uri": "http://ex.com/vivo/ea775348/individual"
+    },
+    "netID": "landy",
+    "label": "Landy, Ryland F.",
+    "uri": "http://ex.com/vivo/ea775348",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/ea775348",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-27T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ea775348/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-29T00:00:00",
+            "uri": "http://ex.com/vivo/postion/ea775348/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/ea775348/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/F26705EEAC1DF73EEF4186B575F19E5910B79513",
+            "email": "r-McGregor@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robert",
+            "familyName": "McGregor",
+            "middleName": "B",
+            "uri": "http://ex.com/vivo/name/842040B69C332E425C025EC0779182D59AB45D68"
+        },
+        "uri": "http://ex.com/vivo/b888266f/individual"
+    },
+    "netID": "r-McGregor",
+    "label": "McGregor, Robert B.",
+    "uri": "http://ex.com/vivo/b888266f",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/b888266f",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-28T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b888266f/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-30T00:00:00",
+            "uri": "http://ex.com/vivo/postion/b888266f/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/b888266f/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/044195190ECC21506E970A964C5E96D85837DC6E",
+            "email": "r-Booner@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Robert",
+            "familyName": "Booner",
+            "middleName": "E",
+            "uri": "http://ex.com/vivo/name/5C0E47DF0B87745B1A2C53F05EBD1C2823496875"
+        },
+        "uri": "http://ex.com/vivo/dd8077e2/individual"
+    },
+    "netID": "r-Booner",
+    "label": "Booner, Robert E.",
+    "uri": "http://ex.com/vivo/dd8077e2",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/dd8077e2",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-29T00:00:00",
+            "uri": "http://ex.com/vivo/postion/dd8077e2/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-03-31T00:00:00",
+            "uri": "http://ex.com/vivo/postion/dd8077e2/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/dd8077e2/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/39CBA30861FC3E463C98F7C3062124B86FC53FED",
+            "email": "gGartner@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Gerard",
+            "familyName": "Gartner",
+            "middleName": "T",
+            "uri": "http://ex.com/vivo/name/CA54B5B478373B4FF3FC14CC5F3D5EEC9C311782"
+        },
+        "uri": "http://ex.com/vivo/f1c6fff3/individual"
+    },
+    "netID": "gGartner",
+    "label": "Gartner, Gerard T.",
+    "uri": "http://ex.com/vivo/f1c6fff3",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/f1c6fff3",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-30T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f1c6fff3/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/f1c6fff3/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/f1c6fff3/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/8EC5598CD3F0AAC27E33CE0957BB7873C4301246",
+            "email": "le.Wu@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Le",
+            "familyName": "Wu",
+            "uri": "http://ex.com/vivo/name/5353220E36715F506287C4FBCBC9271F86864527"
+        },
+        "uri": "http://ex.com/vivo/4663e6b4/individual"
+    },
+    "netID": "le.Wu",
+    "label": "Wu, Le",
+    "uri": "http://ex.com/vivo/4663e6b4",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Assistant Professor",
+        "relates": "http://ex.com/vivo/4663e6b4",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2000-12-31T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4663e6b4/assistant_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4663e6b4/assistant_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Assistant Professor",
+        "uri": "http://ex.com/vivo/postion/4663e6b4/assistant_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/AE4D0B7E007F9B5AA85462E49ECCF1CDD3D9A8C8",
+            "email": "tony-Bourgess@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Anthony",
+            "familyName": "Bourgess",
+            "uri": "http://ex.com/vivo/name/B03FC1A8A356A4DC94E71E19841E33D1BD16F4E5"
+        },
+        "uri": "http://ex.com/vivo/a96b562e/individual"
+    },
+    "netID": "tony-Bourgess",
+    "label": "Bourgess, Anthony",
+    "uri": "http://ex.com/vivo/a96b562e",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/a96b562e",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-01T00:00:00",
+            "uri": "http://ex.com/vivo/postion/a96b562e/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/a96b562e/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/a96b562e/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/1D590B7FD7B2F775458A4E1CBF23BBA4F474A7AB",
+            "email": "aYehon@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Alvin",
+            "familyName": "Yehon",
+            "middleName": "T",
+            "uri": "http://ex.com/vivo/name/24633E6C75A9E8C1CA1D80D280CF6215A897AE11"
+        },
+        "uri": "http://ex.com/vivo/fda04cc0/individual"
+    },
+    "netID": "aYehon",
+    "label": "Yehon, Alvin T.",
+    "uri": "http://ex.com/vivo/fda04cc0",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/fda04cc0",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-02T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fda04cc0/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fda04cc0/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/fda04cc0/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/2B2EFBB856EFF0C1A9C233617439BD618B73292E",
+            "email": "kevinKrisci@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Kevin",
+            "familyName": "Krisci",
+            "middleName": "L",
+            "uri": "http://ex.com/vivo/name/8BC822D32D099A1C6F77F6B99097AF08C8BE1683"
+        },
+        "uri": "http://ex.com/vivo/bf942ec6/individual"
+    },
+    "netID": "kevinKrisci",
+    "label": "Krisci, Kevin L.",
+    "uri": "http://ex.com/vivo/bf942ec6",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/bf942ec6",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-03T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bf942ec6/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/bf942ec6/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/bf942ec6/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/86A577938FC3DF8CE8240EFFD16333B1910CA54B",
+            "email": "vuzella@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Nancy",
+            "familyName": "Vuzella",
+            "middleName": "B",
+            "uri": "http://ex.com/vivo/name/AD08CBBB4C1DCE1AF23CC0206D799FEA57182B14"
+        },
+        "uri": "http://ex.com/vivo/fee0dccb/individual"
+    },
+    "netID": "vuzella",
+    "label": "Vuzella, Nancy B.",
+    "uri": "http://ex.com/vivo/fee0dccb",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/fee0dccb",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-04T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fee0dccb/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/fee0dccb/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/fee0dccb/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/8D2A8C4F23189BDBC8D8D2E6C170B662FFD1A32B",
+            "email": "herthy@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Bharathi",
+            "familyName": "Herthy",
+            "middleName": "S",
+            "uri": "http://ex.com/vivo/name/B5049246DBF183F458329745A9AA314103FBD99E"
+        },
+        "uri": "http://ex.com/vivo/6340ff0a/individual"
+    },
+    "netID": "herthy",
+    "label": "Herthy, Bharathi S.",
+    "uri": "http://ex.com/vivo/6340ff0a",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Lecturer",
+        "relates": "http://ex.com/vivo/6340ff0a",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-05T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6340ff0a/lecturer/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6340ff0a/lecturer/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Lecturer",
+        "uri": "http://ex.com/vivo/postion/6340ff0a/lecturer"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/9533467CFB4AE240C4E38FC937A4F1A947046948",
+            "email": "a-Thomsson@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Alston",
+            "familyName": "Thomsson",
+            "middleName": "V",
+            "uri": "http://ex.com/vivo/name/D0B2CF76A074E7D77687AFB8F670A19DF5AF7BFB"
+        },
+        "uri": "http://ex.com/vivo/5cebea29/individual"
+    },
+    "netID": "a-Thomsson",
+    "label": "Thomsson, Alston V.",
+    "uri": "http://ex.com/vivo/5cebea29",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/5cebea29",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-06T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5cebea29/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/5cebea29/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/5cebea29/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/7A1F9B4568ED0F7EEEF34B652039E49A73018E08",
+            "email": "rSmiths@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Randolph",
+            "familyName": "Smiths",
+            "middleName": "H",
+            "uri": "http://ex.com/vivo/name/B37DA0CF1BAC16876E88C4FB1CC0657296240B81"
+        },
+        "uri": "http://ex.com/vivo/332dadae/individual"
+    },
+    "netID": "rSmiths",
+    "label": "Smiths, Randolph H.",
+    "uri": "http://ex.com/vivo/332dadae",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Clinical Professor",
+        "relates": "http://ex.com/vivo/332dadae",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-07T00:00:00",
+            "uri": "http://ex.com/vivo/postion/332dadae/clinical_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/332dadae/clinical_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Clinical Professor",
+        "uri": "http://ex.com/vivo/postion/332dadae/clinical_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/DD1092ACC08708BAE768086E84C7A5C672F92D19",
+            "email": "jm-Micholssen@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "John",
+            "familyName": "Micholssen",
+            "middleName": "M",
+            "uri": "http://ex.com/vivo/name/CE81F638CCCF08622F184E9B99D1D144FB1B38BE"
+        },
+        "uri": "http://ex.com/vivo/6dd3957c/individual"
+    },
+    "netID": "jm-Micholssen",
+    "label": "Micholssen, John M.",
+    "uri": "http://ex.com/vivo/6dd3957c",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/6dd3957c",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-08T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6dd3957c/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/6dd3957c/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/6dd3957c/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/9940E22D3E3103295DD88B9E6C4B51ED60B5CDA3",
+            "email": "a-Poznan@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Anthony",
+            "familyName": "Poznan",
+            "middleName": "N",
+            "uri": "http://ex.com/vivo/name/2A2062039B1B17EBFA668E40DC482D6A9C027221"
+        },
+        "uri": "http://ex.com/vivo/e6ff3828/individual"
+    },
+    "netID": "a-Poznan",
+    "label": "Poznan, Anthony N.",
+    "uri": "http://ex.com/vivo/e6ff3828",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/e6ff3828",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-09T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e6ff3828/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/e6ff3828/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/e6ff3828/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/5A6EB21EA0947C2761CC44515B51757B1607FC17",
+            "email": "julioBertol@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Julio",
+            "familyName": "Bertol",
+            "middleName": "S",
+            "uri": "http://ex.com/vivo/name/66A201BDA3BCCA74F8DF080BE992E3CEA7D5EF1A"
+        },
+        "uri": "http://ex.com/vivo/939f7165/individual"
+    },
+    "netID": "julioBertol",
+    "label": "Bertol, Julio S.",
+    "uri": "http://ex.com/vivo/939f7165",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Associate Professor",
+        "relates": "http://ex.com/vivo/939f7165",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-10T00:00:00",
+            "uri": "http://ex.com/vivo/postion/939f7165/associate_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/939f7165/associate_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Associate Professor",
+        "uri": "http://ex.com/vivo/postion/939f7165/associate_professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/42F21056DB99B3CDC3BD249D776FC66CA4052226",
+            "email": "lShmidth@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Loren",
+            "familyName": "Shmidth",
+            "middleName": "C",
+            "uri": "http://ex.com/vivo/name/6FC783C3B82DFB4793D8120163D1E147F6E21106"
+        },
+        "uri": "http://ex.com/vivo/4326eaa3/individual"
+    },
+    "netID": "lShmidth",
+    "label": "Shmidth, Loren C.",
+    "uri": "http://ex.com/vivo/4326eaa3",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Professor",
+        "relates": "http://ex.com/vivo/4326eaa3",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-11T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4326eaa3/professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-13T00:00:00",
+            "uri": "http://ex.com/vivo/postion/4326eaa3/professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Professor",
+        "uri": "http://ex.com/vivo/postion/4326eaa3/professor"
+    }
+},
+{
+    "a": "http://vivoweb.org/ontology/core#FacultyMember",
+    "ARG_2000028": {
+        "hasEmail": {
+            "a": "http://www.w3.org/2006/vcard/ns#Email",
+            "uri": "http://ex.com/vivo/email/958E98CCCE4ED8D41C3DADFFD3B8D6F0E9A144C9",
+            "email": "jDexter@school.edu"
+        },
+        "a": "http://www.w3.org/2006/vcard/ns#Individual",
+        "hasName": {
+            "a": "http://www.w3.org/2006/vcard/ns#Name",
+            "givenName": "Jerry",
+            "familyName": "Dexter",
+            "middleName": "D",
+            "uri": "http://ex.com/vivo/name/B728D150AB71E3EBCF5A04182B3E9C67938788EA"
+        },
+        "uri": "http://ex.com/vivo/1333856/individual"
+    },
+    "netID": "jDexter",
+    "label": "Dexter, Jerry D.",
+    "uri": "http://ex.com/vivo/1333856",
+    "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
+    "RO_0000053": {
+        "a": "http://vivoweb.org/ontology/core#Position",
+        "hrJobTitle": "Executive Professor",
+        "relates": "http://ex.com/vivo/1333856",
+        "start": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2001-01-12T00:00:00",
+            "uri": "http://ex.com/vivo/postion/1333856/executive_professor/start",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "end": {
+            "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+            "hasValue": "2014-04-14T00:00:00",
+            "uri": "http://ex.com/vivo/postion/1333856/executive_professor/end",
+            "dateTimePrecision": "http://vivoweb.org/ontology/core#yearMonthDayPrecision"
+        },
+        "label": "Executive Professor",
+        "uri": "http://ex.com/vivo/postion/1333856/executive_professor"
+    }
+}
+]

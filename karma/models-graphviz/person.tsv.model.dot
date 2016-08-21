@@ -1,0 +1,60 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="person.tsv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="FacultyMember1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="Individual1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="Position1"];
+n5[style="filled",color="white",fillcolor="lightgray",label="DateTimeValue1"];
+n6[style="filled",color="white",fillcolor="lightgray",label="DateTimeValue2"];
+n7[style="filled",color="white",fillcolor="lightgray",label="Email1"];
+n8[style="filled",color="white",fillcolor="lightgray",label="Name1"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="FirstName"];
+n10[shape="plaintext",style="filled",fillcolor="gold",label="FullName"];
+n11[shape="plaintext",style="filled",fillcolor="gold",label="MidName"];
+n12[shape="plaintext",style="filled",fillcolor="gold",label="LastName"];
+n13[shape="plaintext",style="filled",fillcolor="gold",label="date_hired"];
+n14[shape="plaintext",style="filled",fillcolor="gold",label="postion_start"];
+n15[shape="plaintext",style="filled",fillcolor="gold",label="Email"];
+n16[shape="plaintext",style="filled",fillcolor="gold",label="Title"];
+n17[shape="plaintext",style="filled",fillcolor="gold",label="position_end"];
+n18[shape="plaintext",style="filled",fillcolor="gold",label="date_terminated"];
+n19[shape="plaintext",style="filled",fillcolor="gold",label="title_2"];
+n20[shape="plaintext",style="filled",fillcolor="gold",label="NETID"];
+n21[shape="plaintext",style="filled",fillcolor="gold",label="position_uri"];
+n22[shape="plaintext",style="filled",fillcolor="gold",label="UID"];
+n23[shape="plaintext",style="filled",fillcolor="gold",label="authorship_uri"];
+n24[shape="plaintext",style="filled",fillcolor="gold",label="email_uri"];
+n25[shape="plaintext",style="filled",fillcolor="gold",label="name_uri"];
+n26[shape="plaintext",style="filled",fillcolor="#CC7799",label="yearMonthDayPrecision2"];
+n27[shape="plaintext",style="filled",fillcolor="#CC7799",label="yearMonthDayPrecision1"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="ARG_2000028"]
+n4 -> n5[color="brown",fontcolor="black",label="start"]
+n4 -> n6[color="brown",fontcolor="black",label="end"]
+n4 -> n2[color="brown",fontcolor="black",label="relates"]
+n3 -> n7[color="brown",fontcolor="black",label="hasEmail"]
+n3 -> n8[color="brown",fontcolor="black",label="hasName"]
+n8 -> n9[color="brown",fontcolor="black",label="givenName"]
+n2 -> n10[color="brown",fontcolor="black",label="label"]
+n8 -> n11[color="brown",fontcolor="black",label="middleName"]
+n8 -> n12[color="brown",fontcolor="black",label="familyName"]
+n5 -> n13[color="brown",fontcolor="black",label="hasValue"]
+n5 -> n14[color="brown",fontcolor="black",label="classLink"]
+n7 -> n15[color="brown",fontcolor="black",label="email"]
+n4 -> n16[color="brown",fontcolor="black",label="hrJobTitle"]
+n6 -> n17[color="brown",fontcolor="black",label="classLink"]
+n6 -> n18[color="brown",fontcolor="black",label="hasValue"]
+n4 -> n19[color="brown",fontcolor="black",label="label"]
+n2 -> n20[color="brown",fontcolor="black",label="netID"]
+n4 -> n21[color="brown",fontcolor="black",label="classLink"]
+n2 -> n22[color="brown",fontcolor="black",label="classLink"]
+n3 -> n23[color="brown",fontcolor="black",label="classLink"]
+n7 -> n24[color="brown",fontcolor="black",label="classLink"]
+n8 -> n25[color="brown",fontcolor="black",label="classLink"]
+n2 -> n4[color="brown",fontcolor="black",label="RO_0000053"]
+n6 -> n26[color="brown",fontcolor="black",label="dateTimePrecision"]
+n5 -> n27[color="brown",fontcolor="black",label="dateTimePrecision"]
+}

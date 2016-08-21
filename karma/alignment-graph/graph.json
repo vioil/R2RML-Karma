@@ -7,6 +7,7 @@
             },
             "type": "InternalNode",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -17,6 +18,7 @@
             },
             "type": "InternalNode",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -27,6 +29,7 @@
             },
             "type": "InternalNode",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -38,6 +41,7 @@
             "type": "InternalNode",
             "modelIds": [
                 "positions.csv",
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -48,6 +52,7 @@
             },
             "type": "InternalNode",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -58,6 +63,7 @@
             },
             "type": "InternalNode",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -74,6 +80,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -90,6 +97,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -106,6 +114,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -122,6 +131,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -154,6 +164,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -203,6 +214,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -220,6 +232,7 @@
             "learnedSemanticTypes": null,
             "modelIds": [
                 "positions.csv",
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -236,6 +249,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -252,6 +266,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -268,6 +283,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -284,6 +300,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -316,6 +333,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -332,6 +350,7 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -379,7 +398,8 @@
             },
             "type": "InternalNode",
             "modelIds": [
-                "positions.csv"
+                "positions.csv",
+                "person.tsv"
             ]
         },
         {
@@ -395,7 +415,8 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
-                "positions.csv"
+                "positions.csv",
+                "person.tsv"
             ]
         },
         {
@@ -428,7 +449,8 @@
             "userSemanticTypes": [],
             "learnedSemanticTypes": null,
             "modelIds": [
-                "positions.csv"
+                "positions.csv",
+                "person.tsv"
             ]
         },
         {
@@ -446,6 +468,38 @@
             "modelIds": [
                 "positions.csv",
                 "organisations.csv"
+            ]
+        },
+        {
+            "id": "D1CA4D96-6C76-6CCB-DB10-AA6BBFA63B1E",
+            "label": {
+                "uri": "HN9"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN9",
+            "columnName": "NETID",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.tsv"
+            ]
+        },
+        {
+            "id": "B61F35EA-989F-6410-0EF0-4596ECB3C03F",
+            "label": {
+                "uri": "HN18"
+            },
+            "type": "ColumnNode",
+            "hNodeId": "HN18",
+            "columnName": "Title",
+            "rdfLiteralType": null,
+            "language": "",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": null,
+            "modelIds": [
+                "person.tsv"
             ]
         }
     ],
@@ -480,7 +534,7 @@
         },
         {
             "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://purl.obolibrary.org/obo/ARG_2000028---http://www.w3.org/2006/vcard/ns#Individual1",
-            "weight": 0.6,
+            "weight": -0.5,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://purl.obolibrary.org/obo/ARG_2000028"
@@ -489,12 +543,13 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
         {
             "id": "http://www.w3.org/2006/vcard/ns#Individual1---http://www.w3.org/2006/vcard/ns#hasEmail---http://www.w3.org/2006/vcard/ns#Email1",
-            "weight": 0.6,
+            "weight": -0.5,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://www.w3.org/2006/vcard/ns#hasEmail"
@@ -503,12 +558,13 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
         {
             "id": "http://www.w3.org/2006/vcard/ns#Individual1---http://www.w3.org/2006/vcard/ns#hasName---http://www.w3.org/2006/vcard/ns#Name1",
-            "weight": 0.6,
+            "weight": -0.5,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://www.w3.org/2006/vcard/ns#hasName"
@@ -517,6 +573,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -530,6 +587,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -543,6 +601,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -556,6 +615,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -569,6 +629,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -595,6 +656,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -635,6 +697,7 @@
             "status": "Normal",
             "keyInfo": "UriOfInstance",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -649,6 +712,7 @@
             "keyInfo": "UriOfInstance",
             "modelIds": [
                 "positions.csv",
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -662,6 +726,7 @@
             "status": "Normal",
             "keyInfo": "UriOfInstance",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -675,6 +740,7 @@
             "status": "Normal",
             "keyInfo": "UriOfInstance",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -688,6 +754,7 @@
             "status": "Normal",
             "keyInfo": "UriOfInstance",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -701,6 +768,7 @@
             "status": "Normal",
             "keyInfo": "UriOfInstance",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -751,6 +819,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -764,6 +833,7 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
+                "person.tsv",
                 "person.csv"
             ]
         },
@@ -782,7 +852,7 @@
         },
         {
             "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#relates---http://vivoweb.org/ontology/core#FacultyMember1",
-            "weight": 0.33333333333333337,
+            "weight": -0.5,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://vivoweb.org/ontology/core#relates"
@@ -791,7 +861,8 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
-                "positions.csv"
+                "positions.csv",
+                "person.tsv"
             ]
         },
         {
@@ -818,7 +889,8 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": [
-                "positions.csv"
+                "positions.csv",
+                "person.tsv"
             ]
         },
         {
@@ -845,7 +917,8 @@
             "status": "Normal",
             "keyInfo": "UriOfInstance",
             "modelIds": [
-                "positions.csv"
+                "positions.csv",
+                "person.tsv"
             ]
         },
         {
@@ -860,6 +933,98 @@
             "modelIds": [
                 "positions.csv",
                 "organisations.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivo.northwestern.edu/ontology/vlocal#netID---D1CA4D96-6C76-6CCB-DB10-AA6BBFA63B1E",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivo.northwestern.edu/ontology/vlocal#netID"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.tsv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#start---http://vivoweb.org/ontology/core#DateTimeValue2",
+            "weight": 0.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#start"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.tsv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#end---http://vivoweb.org/ontology/core#DateTimeValue1",
+            "weight": 0.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#end"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.tsv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#hrJobTitle---B61F35EA-989F-6410-0EF0-4596ECB3C03F",
+            "weight": 1.0,
+            "type": "DataPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#hrJobTitle"
+            },
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.tsv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#start---http://vivoweb.org/ontology/core#DateTimeValue1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#start"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": []
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/core#end---http://vivoweb.org/ontology/core#DateTimeValue2",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/core#end"
+            },
+            "objectPropertyType": "None",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": []
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://purl.obolibrary.org/obo/RO_0000053---http://vivoweb.org/ontology/core#Position1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://purl.obolibrary.org/obo/RO_0000053"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.tsv"
             ]
         }
     ]

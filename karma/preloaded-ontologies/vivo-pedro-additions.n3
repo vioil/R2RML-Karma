@@ -1,0 +1,31 @@
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix vivoext: <http://vivoweb.org/ontology/extensions#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+
+#########################################################
+#
+# Properties to better connect the instances to support
+# JSON-LD
+#
+#########################################################
+
+vivoext:isAuthorInAuthorship a rdf:Property ; 
+	rdfs:label "isAuthorInAuthorship"@en ;
+	rdfs:domain foaf:Person ;
+	rdfs:range vivo:Authorship ;
+	rdfs:comment """The Authorship objects where a Person plays the author role."""
+	.
+
+vivoext:isProductOfAuthorship a rdf:Property ; 
+	rdfs:label "isProductOfAuthorship"@en ;
+	rdfs:domain bibo:AcademicArticle ;
+	rdfs:range vivo:Authorship ;
+	rdfs:comment """The Authorship objects where an article is produced."""
+	.

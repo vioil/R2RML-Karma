@@ -34,7 +34,7 @@ n27[shape="plaintext",style="filled",fillcolor="#CC7799",label="yearMonthDayPrec
 n2 -> n3[color="brown",fontcolor="black",label="ARG_2000028"]
 n4 -> n5[color="brown",fontcolor="black",label="start"]
 n4 -> n6[color="brown",fontcolor="black",label="end"]
-n4 -> n2[color="brown",fontcolor="black",label="relates"]
+n4 -> n2[color="brown",fontcolor="black",label="personInPosition"]
 n3 -> n7[color="brown",fontcolor="black",label="hasEmail"]
 n3 -> n8[color="brown",fontcolor="black",label="hasName"]
 n8 -> n9[color="brown",fontcolor="black",label="givenName"]

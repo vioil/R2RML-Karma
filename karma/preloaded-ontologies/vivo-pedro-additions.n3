@@ -45,3 +45,19 @@ vivoext:authorshipProduct a rdf:Property ;
 	rdfs:range bibo:AcademicArticle ;
 	rdfs:comment """The product of an Authorship."""
 	.
+
+vivoext:personInPosition a rdf:Property ; 
+	rdfs:label "personInPosition"@en ;
+	rdfs:subPropertyOf vivo:relates ;
+	rdfs:domain vivo:Position ;
+	rdfs:range foaf:Person;
+	rdfs:comment """The person filling a position."""
+	.
+
+vivoext:organizationInPosition a rdf:Property ; 
+	rdfs:label "organizationInPosition"@en ;
+	rdfs:subPropertyOf vivo:relates ;
+	rdfs:domain vivo:Position ;
+	rdfs:range foaf:Organization;
+	rdfs:comment """The organization filling a position."""
+	.

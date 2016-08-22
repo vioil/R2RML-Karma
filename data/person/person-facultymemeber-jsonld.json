@@ -22,9 +22,9 @@
     "uri": "http://ex.com/vivo/2dec06e9",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/2dec06e9",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/2dec06e9",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-01T00:00:00",
@@ -64,9 +64,9 @@
     "uri": "http://ex.com/vivo/c81ef444",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/c81ef444",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/c81ef444",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-02T00:00:00",
@@ -106,9 +106,9 @@
     "uri": "http://ex.com/vivo/5c2cef0e",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/5c2cef0e",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/5c2cef0e",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-03T00:00:00",
@@ -148,9 +148,9 @@
     "uri": "http://ex.com/vivo/b6f25071",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/b6f25071",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Associate Professor",
-        "relates": "http://ex.com/vivo/b6f25071",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-04T00:00:00",
@@ -190,9 +190,9 @@
     "uri": "http://ex.com/vivo/613870d1",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/613870d1",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/613870d1",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-05T00:00:00",
@@ -232,9 +232,9 @@
     "uri": "http://ex.com/vivo/980e771d",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/980e771d",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/980e771d",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-06T00:00:00",
@@ -274,9 +274,9 @@
     "uri": "http://ex.com/vivo/ea52a51f",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/ea52a51f",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Visiting Associate Professor",
-        "relates": "http://ex.com/vivo/ea52a51f",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-07T00:00:00",
@@ -316,9 +316,9 @@
     "uri": "http://ex.com/vivo/0bcb050f",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/0bcb050f",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/0bcb050f",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-08T00:00:00",
@@ -358,9 +358,9 @@
     "uri": "http://ex.com/vivo/3c8aa927",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/3c8aa927",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Assistant Professor",
-        "relates": "http://ex.com/vivo/3c8aa927",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-09T00:00:00",
@@ -400,9 +400,9 @@
     "uri": "http://ex.com/vivo/e4fec57c",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/e4fec57c",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/e4fec57c",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-10T00:00:00",
@@ -442,9 +442,9 @@
     "uri": "http://ex.com/vivo/f9f641f8",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/f9f641f8",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/f9f641f8",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-11T00:00:00",
@@ -483,9 +483,9 @@
     "uri": "http://ex.com/vivo/de1f2aed",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/de1f2aed",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Associate Professor",
-        "relates": "http://ex.com/vivo/de1f2aed",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-12T00:00:00",
@@ -524,9 +524,9 @@
     "uri": "http://ex.com/vivo/6edf97c6",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/6edf97c6",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/6edf97c6",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-13T00:00:00",
@@ -566,9 +566,9 @@
     "uri": "http://ex.com/vivo/d6f8c320",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/d6f8c320",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/d6f8c320",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-14T00:00:00",
@@ -608,9 +608,9 @@
     "uri": "http://ex.com/vivo/c7f9a04d",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/c7f9a04d",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Assistant Professor",
-        "relates": "http://ex.com/vivo/c7f9a04d",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-15T00:00:00",
@@ -649,9 +649,9 @@
     "uri": "http://ex.com/vivo/0a2d481f",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/0a2d481f",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/0a2d481f",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-16T00:00:00",
@@ -691,9 +691,9 @@
     "uri": "http://ex.com/vivo/fed03dd1",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/fed03dd1",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Instructional Assistant Professor",
-        "relates": "http://ex.com/vivo/fed03dd1",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-17T00:00:00",
@@ -733,9 +733,9 @@
     "uri": "http://ex.com/vivo/d2caf464",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/d2caf464",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/d2caf464",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-18T00:00:00",
@@ -775,9 +775,9 @@
     "uri": "http://ex.com/vivo/786fc0f3",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/786fc0f3",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/786fc0f3",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-19T00:00:00",
@@ -817,9 +817,9 @@
     "uri": "http://ex.com/vivo/9ed54600",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/9ed54600",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/9ed54600",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-20T00:00:00",
@@ -858,9 +858,9 @@
     "uri": "http://ex.com/vivo/5e728236",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/5e728236",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/5e728236",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-21T00:00:00",
@@ -900,9 +900,9 @@
     "uri": "http://ex.com/vivo/f53479a0",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/f53479a0",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/f53479a0",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-22T00:00:00",
@@ -941,9 +941,9 @@
     "uri": "http://ex.com/vivo/6df86023",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/6df86023",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/6df86023",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-23T00:00:00",
@@ -983,9 +983,9 @@
     "uri": "http://ex.com/vivo/9c75f491",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/9c75f491",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/9c75f491",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-24T00:00:00",
@@ -1025,9 +1025,9 @@
     "uri": "http://ex.com/vivo/7f4e9eb4",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/7f4e9eb4",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/7f4e9eb4",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-25T00:00:00",
@@ -1066,9 +1066,9 @@
     "uri": "http://ex.com/vivo/ec810b24",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/ec810b24",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/ec810b24",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-26T00:00:00",
@@ -1108,9 +1108,9 @@
     "uri": "http://ex.com/vivo/b2c12cd3",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/b2c12cd3",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/b2c12cd3",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-27T00:00:00",
@@ -1149,9 +1149,9 @@
     "uri": "http://ex.com/vivo/bd6831b8",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/bd6831b8",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/bd6831b8",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-28T00:00:00",
@@ -1190,9 +1190,9 @@
     "uri": "http://ex.com/vivo/e3bd8752",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/e3bd8752",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/e3bd8752",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-29T00:00:00",
@@ -1232,9 +1232,9 @@
     "uri": "http://ex.com/vivo/4ff5edcb",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/4ff5edcb",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Senior Lecturer",
-        "relates": "http://ex.com/vivo/4ff5edcb",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-30T00:00:00",
@@ -1274,9 +1274,9 @@
     "uri": "http://ex.com/vivo/8bf8898a",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/8bf8898a",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/8bf8898a",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-10-31T00:00:00",
@@ -1316,9 +1316,9 @@
     "uri": "http://ex.com/vivo/ce238e6e",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/ce238e6e",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Instructional Assistant Professor",
-        "relates": "http://ex.com/vivo/ce238e6e",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-01T00:00:00",
@@ -1358,9 +1358,9 @@
     "uri": "http://ex.com/vivo/4.33E+12",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/4.33E+12",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/4.33E+12",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-02T00:00:00",
@@ -1400,9 +1400,9 @@
     "uri": "http://ex.com/vivo/f2751f8b",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/f2751f8b",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Senior Lecturer",
-        "relates": "http://ex.com/vivo/f2751f8b",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-03T00:00:00",
@@ -1442,9 +1442,9 @@
     "uri": "http://ex.com/vivo/40f09614",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/40f09614",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/40f09614",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-04T00:00:00",
@@ -1483,9 +1483,9 @@
     "uri": "http://ex.com/vivo/8da37bea",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/8da37bea",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/8da37bea",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-05T00:00:00",
@@ -1525,9 +1525,9 @@
     "uri": "http://ex.com/vivo/262ead89",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/262ead89",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/262ead89",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-06T00:00:00",
@@ -1566,9 +1566,9 @@
     "uri": "http://ex.com/vivo/543231b1",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/543231b1",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/543231b1",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-07T00:00:00",
@@ -1608,9 +1608,9 @@
     "uri": "http://ex.com/vivo/bf813378",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/bf813378",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/bf813378",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-08T00:00:00",
@@ -1650,9 +1650,9 @@
     "uri": "http://ex.com/vivo/84ce7aef",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/84ce7aef",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/84ce7aef",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-09T00:00:00",
@@ -1691,9 +1691,9 @@
     "uri": "http://ex.com/vivo/42be1339",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/42be1339",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/42be1339",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-10T00:00:00",
@@ -1733,9 +1733,9 @@
     "uri": "http://ex.com/vivo/ca61ede1",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/ca61ede1",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/ca61ede1",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-11T00:00:00",
@@ -1775,9 +1775,9 @@
     "uri": "http://ex.com/vivo/e7ee497b",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/e7ee497b",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/e7ee497b",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-12T00:00:00",
@@ -1817,9 +1817,9 @@
     "uri": "http://ex.com/vivo/7f8372f3",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/7f8372f3",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/7f8372f3",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-13T00:00:00",
@@ -1859,9 +1859,9 @@
     "uri": "http://ex.com/vivo/8.57E+08",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/8.57E+08",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/8.57E+08",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-14T00:00:00",
@@ -1901,9 +1901,9 @@
     "uri": "http://ex.com/vivo/c0f341af",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/c0f341af",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/c0f341af",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-15T00:00:00",
@@ -1943,9 +1943,9 @@
     "uri": "http://ex.com/vivo/fd023ba6",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/fd023ba6",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/fd023ba6",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-16T00:00:00",
@@ -1985,9 +1985,9 @@
     "uri": "http://ex.com/vivo/7a7aa175",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/7a7aa175",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Executive Professor",
-        "relates": "http://ex.com/vivo/7a7aa175",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-17T00:00:00",
@@ -2027,9 +2027,9 @@
     "uri": "http://ex.com/vivo/97af54fb",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/97af54fb",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/97af54fb",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-18T00:00:00",
@@ -2069,9 +2069,9 @@
     "uri": "http://ex.com/vivo/8422a439",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/8422a439",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/8422a439",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-19T00:00:00",
@@ -2111,9 +2111,9 @@
     "uri": "http://ex.com/vivo/883c4cb7",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/883c4cb7",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Senior Lecturer",
-        "relates": "http://ex.com/vivo/883c4cb7",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-20T00:00:00",
@@ -2152,9 +2152,9 @@
     "uri": "http://ex.com/vivo/430cacbc",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/430cacbc",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Adjunct Assistant Professor",
-        "relates": "http://ex.com/vivo/430cacbc",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-21T00:00:00",
@@ -2194,9 +2194,9 @@
     "uri": "http://ex.com/vivo/b20fdbd9",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/b20fdbd9",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Distinguished Professor",
-        "relates": "http://ex.com/vivo/b20fdbd9",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-22T00:00:00",
@@ -2235,9 +2235,9 @@
     "uri": "http://ex.com/vivo/c500baf1",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/c500baf1",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Veterinary Resident Instructor",
-        "relates": "http://ex.com/vivo/c500baf1",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-23T00:00:00",
@@ -2277,9 +2277,9 @@
     "uri": "http://ex.com/vivo/9c4dca0b",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/9c4dca0b",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor and Head",
-        "relates": "http://ex.com/vivo/9c4dca0b",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-24T00:00:00",
@@ -2319,9 +2319,9 @@
     "uri": "http://ex.com/vivo/9a25a80b",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/9a25a80b",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/9a25a80b",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-25T00:00:00",
@@ -2361,9 +2361,9 @@
     "uri": "http://ex.com/vivo/1921874d",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/1921874d",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/1921874d",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-26T00:00:00",
@@ -2403,9 +2403,9 @@
     "uri": "http://ex.com/vivo/274f2d27",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/274f2d27",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/274f2d27",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-27T00:00:00",
@@ -2445,9 +2445,9 @@
     "uri": "http://ex.com/vivo/cc1476d6",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/cc1476d6",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/cc1476d6",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-28T00:00:00",
@@ -2487,9 +2487,9 @@
     "uri": "http://ex.com/vivo/d138d94a",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/d138d94a",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/d138d94a",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-29T00:00:00",
@@ -2529,9 +2529,9 @@
     "uri": "http://ex.com/vivo/b9098a8e",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/b9098a8e",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/b9098a8e",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-11-30T00:00:00",
@@ -2570,9 +2570,9 @@
     "uri": "http://ex.com/vivo/a90924e6",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/a90924e6",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/a90924e6",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-01T00:00:00",
@@ -2611,9 +2611,9 @@
     "uri": "http://ex.com/vivo/6ebab0fa",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/6ebab0fa",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/6ebab0fa",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-02T00:00:00",
@@ -2653,9 +2653,9 @@
     "uri": "http://ex.com/vivo/f17715d0",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/f17715d0",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/f17715d0",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-03T00:00:00",
@@ -2695,9 +2695,9 @@
     "uri": "http://ex.com/vivo/90e6f6c0",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/90e6f6c0",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/90e6f6c0",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-04T00:00:00",
@@ -2737,9 +2737,9 @@
     "uri": "http://ex.com/vivo/054759c0",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/054759c0",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/054759c0",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-05T00:00:00",
@@ -2779,9 +2779,9 @@
     "uri": "http://ex.com/vivo/18fdb6b4",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/18fdb6b4",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Professor",
-        "relates": "http://ex.com/vivo/18fdb6b4",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-06T00:00:00",
@@ -2821,9 +2821,9 @@
     "uri": "http://ex.com/vivo/38160486",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/38160486",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Senior Lecturer",
-        "relates": "http://ex.com/vivo/38160486",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-07T00:00:00",
@@ -2863,9 +2863,9 @@
     "uri": "http://ex.com/vivo/9d92ca8b",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/9d92ca8b",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Lecturer",
-        "relates": "http://ex.com/vivo/9d92ca8b",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-08T00:00:00",
@@ -2905,9 +2905,9 @@
     "uri": "http://ex.com/vivo/1aedaf52",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/1aedaf52",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/1aedaf52",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-09T00:00:00",
@@ -2946,9 +2946,9 @@
     "uri": "http://ex.com/vivo/26f30b82",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/26f30b82",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/26f30b82",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-10T00:00:00",
@@ -2988,9 +2988,9 @@
     "uri": "http://ex.com/vivo/96285042",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/96285042",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/96285042",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-11T00:00:00",
@@ -3030,9 +3030,9 @@
     "uri": "http://ex.com/vivo/24e3e4e2",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/24e3e4e2",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/24e3e4e2",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-12T00:00:00",
@@ -3072,9 +3072,9 @@
     "uri": "http://ex.com/vivo/3469d15f",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/3469d15f",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/3469d15f",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-13T00:00:00",
@@ -3114,9 +3114,9 @@
     "uri": "http://ex.com/vivo/d40b0c98",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/d40b0c98",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Senior Lecturer",
-        "relates": "http://ex.com/vivo/d40b0c98",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-14T00:00:00",
@@ -3156,9 +3156,9 @@
     "uri": "http://ex.com/vivo/48d141da",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/48d141da",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/48d141da",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-15T00:00:00",
@@ -3198,9 +3198,9 @@
     "uri": "http://ex.com/vivo/5677ce1c",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/5677ce1c",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/5677ce1c",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-16T00:00:00",
@@ -3240,9 +3240,9 @@
     "uri": "http://ex.com/vivo/d522fec6",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/d522fec6",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor and Associate Dean",
-        "relates": "http://ex.com/vivo/d522fec6",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-17T00:00:00",
@@ -3282,9 +3282,9 @@
     "uri": "http://ex.com/vivo/9ed36091",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/9ed36091",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Veterinary Intern Instructor",
-        "relates": "http://ex.com/vivo/9ed36091",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-18T00:00:00",
@@ -3324,9 +3324,9 @@
     "uri": "http://ex.com/vivo/38f0640f",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/38f0640f",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Visiting Lecturer",
-        "relates": "http://ex.com/vivo/38f0640f",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-19T00:00:00",
@@ -3365,9 +3365,9 @@
     "uri": "http://ex.com/vivo/0c7c03e3",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/0c7c03e3",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/0c7c03e3",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-20T00:00:00",
@@ -3407,9 +3407,9 @@
     "uri": "http://ex.com/vivo/bca92840",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/bca92840",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/bca92840",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-21T00:00:00",
@@ -3449,9 +3449,9 @@
     "uri": "http://ex.com/vivo/11e9b5be",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/11e9b5be",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Associate Professor",
-        "relates": "http://ex.com/vivo/11e9b5be",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-22T00:00:00",
@@ -3491,9 +3491,9 @@
     "uri": "http://ex.com/vivo/194fc3c7",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/194fc3c7",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/194fc3c7",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-23T00:00:00",
@@ -3533,9 +3533,9 @@
     "uri": "http://ex.com/vivo/8775e8bc",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/8775e8bc",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/8775e8bc",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-24T00:00:00",
@@ -3575,9 +3575,9 @@
     "uri": "http://ex.com/vivo/ca139916",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/ca139916",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor and Interim Head",
-        "relates": "http://ex.com/vivo/ca139916",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-25T00:00:00",
@@ -3617,9 +3617,9 @@
     "uri": "http://ex.com/vivo/54317d5b",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/54317d5b",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/54317d5b",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-26T00:00:00",
@@ -3659,9 +3659,9 @@
     "uri": "http://ex.com/vivo/ea775348",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/ea775348",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/ea775348",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-27T00:00:00",
@@ -3701,9 +3701,9 @@
     "uri": "http://ex.com/vivo/b888266f",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/b888266f",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/b888266f",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-28T00:00:00",
@@ -3743,9 +3743,9 @@
     "uri": "http://ex.com/vivo/dd8077e2",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/dd8077e2",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/dd8077e2",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-29T00:00:00",
@@ -3785,9 +3785,9 @@
     "uri": "http://ex.com/vivo/f1c6fff3",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/f1c6fff3",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/f1c6fff3",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-30T00:00:00",
@@ -3826,9 +3826,9 @@
     "uri": "http://ex.com/vivo/4663e6b4",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/4663e6b4",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Assistant Professor",
-        "relates": "http://ex.com/vivo/4663e6b4",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2000-12-31T00:00:00",
@@ -3867,9 +3867,9 @@
     "uri": "http://ex.com/vivo/a96b562e",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/a96b562e",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/a96b562e",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-01T00:00:00",
@@ -3909,9 +3909,9 @@
     "uri": "http://ex.com/vivo/fda04cc0",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/fda04cc0",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/fda04cc0",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-02T00:00:00",
@@ -3951,9 +3951,9 @@
     "uri": "http://ex.com/vivo/bf942ec6",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/bf942ec6",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/bf942ec6",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-03T00:00:00",
@@ -3993,9 +3993,9 @@
     "uri": "http://ex.com/vivo/fee0dccb",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/fee0dccb",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/fee0dccb",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-04T00:00:00",
@@ -4035,9 +4035,9 @@
     "uri": "http://ex.com/vivo/6340ff0a",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/6340ff0a",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Lecturer",
-        "relates": "http://ex.com/vivo/6340ff0a",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-05T00:00:00",
@@ -4077,9 +4077,9 @@
     "uri": "http://ex.com/vivo/5cebea29",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/5cebea29",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/5cebea29",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-06T00:00:00",
@@ -4119,9 +4119,9 @@
     "uri": "http://ex.com/vivo/332dadae",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/332dadae",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Clinical Professor",
-        "relates": "http://ex.com/vivo/332dadae",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-07T00:00:00",
@@ -4161,9 +4161,9 @@
     "uri": "http://ex.com/vivo/6dd3957c",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/6dd3957c",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/6dd3957c",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-08T00:00:00",
@@ -4203,9 +4203,9 @@
     "uri": "http://ex.com/vivo/e6ff3828",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/e6ff3828",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/e6ff3828",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-09T00:00:00",
@@ -4245,9 +4245,9 @@
     "uri": "http://ex.com/vivo/939f7165",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/939f7165",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Associate Professor",
-        "relates": "http://ex.com/vivo/939f7165",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-10T00:00:00",
@@ -4287,9 +4287,9 @@
     "uri": "http://ex.com/vivo/4326eaa3",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/4326eaa3",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Professor",
-        "relates": "http://ex.com/vivo/4326eaa3",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-11T00:00:00",
@@ -4329,9 +4329,9 @@
     "uri": "http://ex.com/vivo/1333856",
     "@context": "http://localhost:8080/publish/JSON/WSP1WS5-person_tsv-context.json",
     "RO_0000053": {
+        "personInPosition": "http://ex.com/vivo/1333856",
         "a": "http://vivoweb.org/ontology/core#Position",
         "hrJobTitle": "Executive Professor",
-        "relates": "http://ex.com/vivo/1333856",
         "start": {
             "a": "http://vivoweb.org/ontology/core#DateTimeValue",
             "hasValue": "2001-01-12T00:00:00",

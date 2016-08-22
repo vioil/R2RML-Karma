@@ -1325,7 +1325,7 @@
         },
         {
             "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://purl.obolibrary.org/obo/RO_0000053---http://vivoweb.org/ontology/core#Position1",
-            "weight": 1.0,
+            "weight": 0.0,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://purl.obolibrary.org/obo/RO_0000053"
@@ -1680,6 +1680,20 @@
             "keyInfo": "None",
             "modelIds": [
                 "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Position1---http://vivoweb.org/ontology/extensions#personInPosition---http://vivoweb.org/ontology/core#FacultyMember1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/extensions#personInPosition"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "person.tsv"
             ]
         }
     ]

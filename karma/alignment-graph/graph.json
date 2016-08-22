@@ -1339,7 +1339,7 @@
         },
         {
             "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivoweb.org/ontology/core#hasPublicationVenue---http://purl.org/ontology/bibo/Journal1",
-            "weight": 1.0,
+            "weight": 0.0,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://vivoweb.org/ontology/core#hasPublicationVenue"
@@ -1353,7 +1353,7 @@
         },
         {
             "id": "http://purl.org/ontology/bibo/AcademicArticle1---http://vivoweb.org/ontology/extensions#isProductOfAuthorship---http://vivoweb.org/ontology/core#Authorship1",
-            "weight": 1.0,
+            "weight": 0.0,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://vivoweb.org/ontology/extensions#isProductOfAuthorship"
@@ -1381,7 +1381,7 @@
         },
         {
             "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/core#dateTimeValue---http://vivoweb.org/ontology/core#DateTimeValue2",
-            "weight": 1.0,
+            "weight": 0.0,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://vivoweb.org/ontology/core#dateTimeValue"
@@ -1616,7 +1616,7 @@
         },
         {
             "id": "http://vivoweb.org/ontology/core#FacultyMember1---http://vivoweb.org/ontology/extensions#isAuthorInAuthorship---http://vivoweb.org/ontology/core#Authorship1",
-            "weight": 1.0,
+            "weight": 0.0,
             "type": "ObjectPropertyLink",
             "label": {
                 "uri": "http://vivoweb.org/ontology/extensions#isAuthorInAuthorship"
@@ -1653,6 +1653,34 @@
             "status": "Normal",
             "keyInfo": "None",
             "modelIds": []
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Authorship1---http://vivoweb.org/ontology/extensions#authorshipAuthor---http://vivoweb.org/ontology/core#FacultyMember1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/extensions#authorshipAuthor"
+            },
+            "objectPropertyType": "Indirect",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
+        },
+        {
+            "id": "http://vivoweb.org/ontology/core#Authorship1---http://vivoweb.org/ontology/extensions#authorshipProduct---http://purl.org/ontology/bibo/AcademicArticle1",
+            "weight": 1.0,
+            "type": "ObjectPropertyLink",
+            "label": {
+                "uri": "http://vivoweb.org/ontology/extensions#authorshipProduct"
+            },
+            "objectPropertyType": "Direct",
+            "status": "Normal",
+            "keyInfo": "None",
+            "modelIds": [
+                "articles.csv"
+            ]
         }
     ]
 }

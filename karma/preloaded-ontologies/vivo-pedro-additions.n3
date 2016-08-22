@@ -29,3 +29,19 @@ vivoext:isProductOfAuthorship a rdf:Property ;
 	rdfs:range vivo:Authorship ;
 	rdfs:comment """The Authorship objects where an article is produced."""
 	.
+
+vivoext:authorshipAuthor a rdf:Property ; 
+	rdfs:label "authorshipAuthor"@en ;
+	rdfs:subPropertyOf vivo:relates ;
+	rdfs:domain vivo:Authorship ;
+	rdfs:range foaf:Person ;
+	rdfs:comment """The author of an Authorship."""
+	.
+
+vivoext:authorshipProduct a rdf:Property ; 
+	rdfs:label "authorshipProduct"@en ;
+	rdfs:subPropertyOf vivo:relates ;
+	rdfs:domain vivo:Authorship ;
+	rdfs:range bibo:AcademicArticle ;
+	rdfs:comment """The product of an Authorship."""
+	.

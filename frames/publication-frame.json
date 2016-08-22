@@ -1,0 +1,19 @@
+{
+  "@type": "AcademicArticle",
+  "@explicit": true,
+  "a": {},
+  "uri": {},
+  "age": {},
+  "isProductOfAuthorship": {
+    "@type": "Authorship",
+    "@explicit": true,
+    "uri": {},
+    "a": {},
+    "author": {
+      "@type": "FacultyMember",
+      "@explicit": true,
+      "uri": {},
+      "a": {}
+    }
+  }
+}

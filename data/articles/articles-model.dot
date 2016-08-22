@@ -32,7 +32,7 @@ n26[shape="plaintext",style="filled",fillcolor="gold",label="ID"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="hasPublicationVenue"]
 n2 -> n4[color="brown",fontcolor="black",label="isProductOfAuthorship"]
-n4 -> n5[color="brown",fontcolor="black",label="relates"]
+n4 -> n5[color="brown",fontcolor="black",label="authorshipAuthor"]
 n5 -> n6[color="brown",fontcolor="black",label="dateTimeValue"]
 n2 -> n7[color="brown",fontcolor="black",label="label"]
 n2 -> n8[color="brown",fontcolor="black",label="issn"]
@@ -54,6 +54,6 @@ n2 -> n23[color="brown",fontcolor="black",label="numPages"]
 n2 -> n24[color="brown",fontcolor="black",label="pageEnd"]
 n5 -> n25[color="brown",fontcolor="black",label="classLink"]
 n2 -> n26[color="brown",fontcolor="black",label="classLink"]
+n4 -> n2[color="brown",fontcolor="black",label="authorshipProduct"]
 n5 -> n4[color="brown",fontcolor="black",label="isAuthorInAuthorship"]
-n4 -> n2[color="brown",fontcolor="black",label="relates"]
 }

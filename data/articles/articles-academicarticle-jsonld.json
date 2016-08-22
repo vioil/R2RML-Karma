@@ -3,20 +3,18 @@
     "a": "http://purl.org/ontology/bibo/AcademicArticle",
     "isProductOfAuthorship": {
         "a": "http://vivoweb.org/ontology/core#Authorship",
-        "relates": [
-            {
-                "a": "http://vivoweb.org/ontology/core#FacultyMember",
-                "dateTimeValue": {
-                    "a": "http://vivoweb.org/ontology/core#DateTimeValue",
-                    "hasValue": "2003-08-11T00:00:00",
-                    "uri": "http://ex.com/authorship/90e6f6c0/12345/date"
-                },
-                "isAuthorInAuthorship": "http://ex.com/authorship/90e6f6c0/12345",
-                "uri": "http://ex.com/90e6f6c0"
+        "authorshipAuthor": {
+            "a": "http://vivoweb.org/ontology/core#FacultyMember",
+            "dateTimeValue": {
+                "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+                "hasValue": "2003-08-11T00:00:00",
+                "uri": "http://ex.com/authorship/90e6f6c0/12345/date"
             },
-            "http://ex.com/12345"
-        ],
-        "uri": "http://ex.com/authorship/90e6f6c0/12345"
+            "isAuthorInAuthorship": "http://ex.com/authorship/90e6f6c0/12345",
+            "uri": "http://ex.com/90e6f6c0"
+        },
+        "uri": "http://ex.com/authorship/90e6f6c0/12345",
+        "authorshipProduct": "http://ex.com/12345"
     },
     "issue": "1",
     "fullAuthorList": "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter",
@@ -41,20 +39,18 @@
     "a": "http://purl.org/ontology/bibo/AcademicArticle",
     "isProductOfAuthorship": {
         "a": "http://vivoweb.org/ontology/core#Authorship",
-        "relates": [
-            {
-                "a": "http://vivoweb.org/ontology/core#FacultyMember",
-                "dateTimeValue": {
-                    "a": "http://vivoweb.org/ontology/core#DateTimeValue",
-                    "hasValue": "2006-02-01T00:00:00",
-                    "uri": "http://ex.com/authorship/90e6f6c0/23456/date"
-                },
-                "isAuthorInAuthorship": "http://ex.com/authorship/90e6f6c0/23456",
-                "uri": "http://ex.com/90e6f6c0"
+        "authorshipAuthor": {
+            "a": "http://vivoweb.org/ontology/core#FacultyMember",
+            "dateTimeValue": {
+                "a": "http://vivoweb.org/ontology/core#DateTimeValue",
+                "hasValue": "2006-02-01T00:00:00",
+                "uri": "http://ex.com/authorship/90e6f6c0/23456/date"
             },
-            "http://ex.com/23456"
-        ],
-        "uri": "http://ex.com/authorship/90e6f6c0/23456"
+            "isAuthorInAuthorship": "http://ex.com/authorship/90e6f6c0/23456",
+            "uri": "http://ex.com/90e6f6c0"
+        },
+        "uri": "http://ex.com/authorship/90e6f6c0/23456",
+        "authorshipProduct": "http://ex.com/23456"
     },
     "issue": "1",
     "fullAuthorList": "Melissa P Metz; Xiaoyu Qu; Brian Laffin; David Earnest; Weston W. Harter",
